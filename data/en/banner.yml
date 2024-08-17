@@ -9,4 +9,4 @@ banner:
   button:
     enable: true
     label: "Register for Events"
-    link: "#registration"
+    link: "blog/event-register/"

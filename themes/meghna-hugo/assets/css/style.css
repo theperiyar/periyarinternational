@@ -8,14 +8,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
-  color: #737f8a;
+  background-color: #282c34; /* Dark slate gray */;
+  color: #61dafb; /* Light sky blue */
 }
 
 body {
-  background-color: #353b43;
+  background-color: #282c34; /* Dark slate gray */;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #61dafb; /* Light sky blue */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #282c34; /* Dark slate gray */;
 }
 
 .bg-dark {
@@ -865,7 +865,7 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: #61dafb; /* Light sky blue */
   transition: .3s all;
 }
 
@@ -1496,7 +1496,7 @@ a:hover {
 }
 
 .post-time {
-  color: #737f8a;
+  color: #61dafb; /* Light sky blue */
 }
 
 input#e-mail,
@@ -2270,7 +2270,7 @@ figcaption {
 }
 
 #select-language {
-  background: #353b43;
+  background: #282c34; /* Dark slate gray */;
   color: #ffffff;
   border: 0;
 }

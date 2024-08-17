@@ -1,16 +1,52 @@
 ############################# About ###################################
 about:
   enable : true
-  title : About Us
+  title : "About Us"
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    title : "Our Mission"
+    content : "Periyar International propagates the humanistic ideas of Periyar E.V.Ramasamy to the world, promoting self-respect, social justice, and rational thinking. [Read More](/blog/periyar-international-mission/)"
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : "Our Founder"
+    content : "Periyar E.V.Ramasamy (1879-1973) was a social revolutionary who founded the Self-Respect Movement in 1925, fighting against social discrimination and promoting equality. [Read More](/blog/life-and-legacy-of-periyar/)"
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : "Our Legacy"
+    content : "For over 90 years, the Self-Respect Movement has worked tirelessly to break social barriers, promote rationalism, and establish an egalitarian society. [Read More](/blog/history-of-self-respect-movement/)"
+
+  - icon : ti-flag # themify icon pack : https://themify.me/themify-icons
+    title : "Global Reach"
+    content : "Founded in 1994 in Chicago, Periyar International now has chapters across the world, uniting humanists, rationalists, and social justice advocates. [Read More](/blog/periyar-international-global-impact/)"
+
+  - icon : ti-light-bulb # themify icon pack : https://themify.me/themify-icons
+    title : "Our Philosophy"
+    content : "We believe in the power of reason, the importance of self-respect, and the need for continuous social reform to create a more just and equitable world. [Read More](/blog/periyar-philosophy-modern-relevance/)"
+
+  - icon : ti-hand-open # themify icon pack : https://themify.me/themify-icons
+    title : "Join Us"
+    content : "Be part of our global community spreading Periyar's ideals. Together, we can work towards a world free from discrimination and social injustice. [Read More](/blog/how-to-join-periyar-international/)"
+  
+  - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    title : "Our Organization"
+    content : "Periyar International was founded on November 13, 1994 in Chicago, Illinois. Our main purpose is to propagate the humanistic ideas of Periyar E.V.Ramasamy to the world. [Read More](/blog/periyar-international-history/)"
+
+  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+    title : "Thanthai Periyar"
+    content : "E.V. Ramasamy, known as Periyar, was born on September 17, 1879. He was a social revolutionary who founded the Self-Respect Movement in 1925 to fight against social discrimination. [Read More](/blog/periyar-life-and-philosophy/)"
+
+  - icon : ti-star # themify icon pack : https://themify.me/themify-icons
+    title : "Self-Respect Movement"
+    content : "The Self-Respect Movement, founded by Periyar in 1925, aims to eradicate social evils and promote equality. It has completed over 90 years of struggle for social justice. [Read More](/blog/self-respect-movement/)"
+
+  - icon : ti-flag # themify icon pack : https://themify.me/themify-icons
+    title : "Global Chapters"
+    content : "Periyar International has chapters across the world. Country-specific chapters can be formed according to local rules with the consent of Dravidar Kazagam and our operational director. [Read More](/blog/periyar-international-chapters/)"
+
+  - icon : ti-light-bulb # themify icon pack : https://themify.me/themify-icons
+    title : "Our Philosophy"
+    content : "We believe in rationalism, self-respect, and social justice. Our doctrine seeks reasons for everything and considers a life with ignorance as a slave's life. [Read More](/blog/periyar-philosophy/)"
+
+  - icon : ti-crown # themify icon pack : https://themify.me/themify-icons
+    title : "K. Veeramani Award"
+    content : "We instituted the K. Veeramani Award for Social Justice to recognize contributions in creating awareness on social equality and human dignity. [Read More](/blog/k-veeramani-award/)"    

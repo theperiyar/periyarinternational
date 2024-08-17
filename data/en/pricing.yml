@@ -1,64 +1,36 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : "Support Periyar International"
   pricing_table :
-    # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+    # support option 1
+    - name : "Donate"
+      icon : "ti-gift"
+      description : "Support our mission to spread Periyar's humanistic ideas. Your contribution helps us organize events and create awareness."
       button:
-        label : "Signup"
-        link : "#"
+        label : "Donate Now"
+        link : "#donate"
       
-    # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+    # support option 2
+    - name : "Attend Events"
+      icon : "ti-calendar"
+      description : "Participate in our conferences and events, such as the Periyar 146th birthday celebration."
       button:
-        label : "Signup"
-        link : "#"
+        label : "View Events"
+        link : "#events"
         
-    # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+    # support option 3
+    - name : "Start a Chapter"
+      icon : "ti-world"
+      description : "Form a country-specific chapter of Periyar International in your region, following local regulations."
       button:
-        label : "Signup"
-        link : "#"
+        label : "Learn More"
+        link : "#start-chapter"
         
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+    # support option 4
+    - name : "Youth Programs"
+      icon : "ti-user"
+      description : "Join our youth programs, including speech contests, essay writing, and other activities."
       button:
-        label : "Signup"
-        link : "#"
+        label : "Youth Activities"
+        link : "#youth-programs"

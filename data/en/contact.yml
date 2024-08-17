@@ -1,24 +1,23 @@
 ############################## Contact #############################
 contact:
   enable : true
-  title : Contact Us
-  subtitle : Contact Details
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  title : "Contact Us"
+  subtitle : "Get in Touch"
+  content : "Have questions about Periyar International or interested in starting a new chapter? We'd love to hear from you. Reach out to us using the information below or fill out the contact form."
 
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+      info : "Periyar International USA, 5652 Chapel Hill Ct, Gurnee, IL 60031, USA"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +880-31-000-000"
-      
-    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-      info : "Fax: +880-31-000-000"
+      info : "Phone: +1 (708) 361-1998"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: hello@meghna.com"
+      info : "Email: somailangovan@gmail.com"
 
+    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      info : "Website: www.periyarinternational.com"
 
   # Contact form
   contact_form:
@@ -28,4 +27,4 @@ contact:
     email : "Your Email"
     subject : "Subject"
     message : "Message"
-    submit : "Submit"
+    submit : "Send Message"
