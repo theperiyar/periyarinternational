@@ -6,29 +6,29 @@ service:
     # event item loop
     - name : "Speech"
       icon : ti-microphone # themify icon pack : https://themify.me/themify-icons
-      content : "Showcase your oratory skills on Periyar's ideals. [Learn More](/periyarinternational/blog/speech-competition/)"
+      content : "Showcase your oratory skills on Periyar's ideals. [Learn More](/blog/speech-competition/)"
       
     # event item loop
     - name : "Sing-a-Song"
       icon : ti-music-alt # themify icon pack : https://themify.me/themify-icons
-      content : "Express Periyar's messages through music. [Learn More](/periyarinternational/blog/sing-a-song/)"
+      content : "Express Periyar's messages through music. [Learn More](/blog/sing-a-song/)"
       
     # event item loop
     - name : "Dravidian Icons"
       icon : ti-user # themify icon pack : https://themify.me/themify-icons
-      content : "Enact iconic Dravidian leaders and their contributions. [Learn More](/periyarinternational/blog/dravidian-icons/)"
+      content : "Enact iconic Dravidian leaders and their contributions. [Learn More](/blog/dravidian-icons/)"
       
     # event item loop
     - name : "Drawing"
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : "Create art inspired by social justice and equality. [Learn More](/periyarinternational/blog/drawing-competition/)"
+      content : "Create art inspired by social justice and equality. [Learn More](/blog/drawing-competition/)"
       
     # event item loop
     - name : "Short Essay"
       icon : ti-pencil-alt # themify icon pack : https://themify.me/themify-icons
-      content : "Write about Periyar's impact and vision. [Learn More](/periyarinternational/blog/short-essay-contest/)"
+      content : "Write about Periyar's impact and vision. [Learn More](/blog/short-essay-contest/)"
       
     # event item loop
     - name : "Run For Periyar"
       icon : ti-direction-alt # themify icon pack : https://themify.me/themify-icons
-      content : "Virtual run/walk event to honor Periyar's legacy. [Learn More](/periyarinternational/blog/run-for-periyar/)"
+      content : "Virtual run/walk event to honor Periyar's legacy. [Learn More](/blog/run-for-periyar/)"
