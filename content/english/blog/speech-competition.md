@@ -1,8 +1,66 @@
 ---
-title: "How To Setup Meghna Hugo"
+title: "The Power of Speech: Celebrating Periyar's Legacy"
 date: 2018-09-12T14:51:12+06:00
 author: Mark Dinn
-image_webp: images/blog/meghna.webp
-image: images/blog/meghna.jpg
-description : "This is meta description"
+image_webp: images/blog/Img_Speech.webp
+image: images/blog/Img_Speech.jpg
+description : "The Power of Speech: Celebrating Periyar's Legacy"
 ---
+
+
+
+"Speech is power: speech is to persuade, to convert, to compel." — Ralph Waldo Emerson, an American essayist and lecturer
+
+As we are getting ready to celebrate the life and legacy of Periyar Ayya, on his 145th birthday, we think it would be very fitting for our youth to engage in a heartfelt rhetorical session learning about what turned a common man EVR into "Periyar" indeed. Our intent is to encourage inquisitive young minds to reason, rationalize and fearlessly ask questions especially when something does not connect with the intellect… just the way Periyar did. In an effort to follow in his footsteps and pave the way for more "Periyars" in-the-making, let's get the word out about few youth events to reel in more participants!
+
+### Rules / Guidelines
+
+- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
+- **Speech Time Limit**: Your speech must not exceed **two (2) minutes**.
+- **Language Choice**: You have the option to speak in either **Tamil** or **English**.
+- **Intro with Periyar Quote**: We strongly encourage all participants to share a Periyar quote at the beginning of their live event after introducing themselves. A list of reference quotes will be sent to your confirmation email.
+- **Topic Selection**: Choose **one (1)** of the following topics for your speech.
+
+### Speech Topics in English:
+
+1. Periyar the visionary – How & Why?
+2. Periyar the most revered brand ambassador for Women Empowerment (WE) past present and future – How & Why?
+3. Periyar respected/recommended Thirukural among Tamils? – Why?
+4. Periyar & Ambedkar – Two sides of the same coin? How and why?
+5. Periyar – Vaikom warrior – Why? And what makes this event very special this year?
+6. Periyar and His Ideals
+7. Self-Respect and Empowerment
+8. Women's Rights and Equality
+9. Rationalism and Scientific Thinking
+10. Eradication of Caste
+11. Why Periyar favor Science and rationality?
+12. Periyar and frugality
+13. Periyar the Rockstar of Social Justice and Women's Empowerment of today's young curious minds.
+14. How and why does Periyar have such a fan following amongst today's youth?
+15. Which principle of Periyar resonates the most within you? Why?
+16. If you could ask one question to Periyar today – What would it be?
+17. Periyar the Great Emancipator? How and why?
+18. Periyar's Perspectives on Women's Rights
+19. Periyar's Vision of Social Justice
+20. Periyar and Self-Respect 
+
+### Speech Topics in Tamil:
+
+1. பெரியாரும் பெண்ணுரிமையும்
+2. பெரியார் ஒரு தொலைநோக்குப் பார்வையாளர் - ஏன்? எப்படி?
+3. பெரியாரும் சமூக நீதியும்
+4. பெரியாரும் சுயமரியாதையும்
+5. பெரியார் என்றுமே பெண்ணுரிமைக்கான ஒரு மதிப்பிற்குரிய தூதுவர். ஏன்? எதனால்?
+6. பெரியாரும் சிக்கனமும்.
+7. பெரியாரின் பின்னால் ஒரு பெரிய இளைஞர் பட்டாளம் இருப்பது. ஏன் / எப்படி?
+8. பெரியார் ஏன் தமிழர்களுக்கு திருக்குறளைப் பரிந்துரைத்தார்?
+9. பெரியாரும், அம்பேத்கரும் ஒரு நாணயத்தின் இரு பக்கங்களே. ஏன்? எப்படி?
+10. வைக்கம் வீரர் பெரியார்  - ஏன்?  எதனால் இந்த நிகழ்வு இந்த ஆண்டு சிறப்பாகக் கொண்டாடப்படுகிறது?
+11. பெரியார் எதனால் அறிவியலையும், பகுத்தறிவையும் போற்றினார்?
+12. உங்களின் மனதைப் பாதித்த பெரியாரின் கொள்கை எது? ஏன்?
+13. இன்று பெரியாரிடம் நீங்கள் ஒரு கேள்வியைக் கேட்டால்: அது என்னவாக இருக்கும்?
+14. பெரியார் ஒரு மீட்பர். ஏன் / எப்படி?
+
+- **Personal Perspective**: Feel free to share your thoughts, stories, or personal experiences related to your chosen topic.
+
+**Limited spots only! Click [here](#) to register immediately!!!**
