@@ -88,6 +88,20 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 
+
+
+###############################################
+
+[params.header]
+sticky = true
+logo = ""
+
+[params.header.topbar]
+enable = true
+email = "info@periyarinternational.org"
+location = "USA"
+
+
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
 name = "About"

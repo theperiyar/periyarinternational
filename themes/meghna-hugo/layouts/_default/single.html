@@ -1,8 +1,13 @@
 {{ define "main" }}
+
 {{ partial "navigation.html" . }}
 
 <section class="section">
   <div class="container">
+    <div class="row"> 
+      <div class="col-lg-8 offset-lg-2 text-center">
+
+
     <!-- Breadcrumb -->
     {{ if .Params.show_breadcrumb }}
     <nav aria-label="breadcrumb">
@@ -14,30 +19,27 @@
     </nav>
     {{ end }}
 
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 text-center">
-        <h1>{{ .Title }}</h1>
-        {{ if not .Params.is_event }}
-        <ul class="list-inline mb-50">
-          <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li>
-          <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
-        </ul>
-        {{ end }}
+    <h1>{{ .Title }}</h1>
+
+    {{ if not .Params.is_event }}
+    <ul class="list-inline mb-50">
+      <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li>
+      <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
+    </ul>
+    {{ end }}
+    
         {{ if .Params.Image }}
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
         {{ end }}
       </div>
-    </div>
 
-    {{ if .Params.show_register_button }}
-    <div class="text-center mb-4">
-      <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
-    </div>
-    {{ end }}
-
-    <div class="row">
-      <!-- Content column -->
       <div class="col-lg-8 offset-lg-2">
+        {{ if .Params.show_register_button }}
+        <div class="text-center mb-4">
+          <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
+        </div>
+        {{ end }}
+
         <div class="post-single-content">
           {{ .Content }}
         </div>
@@ -67,54 +69,43 @@
         {{ partial "post-share.html" . }}
         {{ end }}
 
-        <!-- comments -->
+        {{ if .Params.show_form }}
+        <div class="row mt-5" id="registration-form">
+          <div class="col-lg-8 offset-lg-2">
+            <h2 class="text-center">Periyar 146 Birthday Event Registration</h2>
+            <div id="formkeep-embed" data-formkeep-url="{{ .Params.form_url }}"></div>
+    
+            <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+            <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+    
+            <script>
+            const formkeepEmbed = document.querySelector('#formkeep-embed')
+            formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
+              console.log('Submitting form...')
+            })
+            formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+              console.log('Submitted form...')
+            })
+            </script>
+          </div>
+        </div>
+        {{ end }}
+
         <div class="mt-5">
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
     </div>
-
-    {{ if .Params.show_form }}
-    <!-- Form section -->
-    <div class="row mt-5" id="registration-form">
-      <div class="col-lg-8 offset-lg-2">
-        <h2 class="text-center">Register for {{ .Title }}</h2>
-        <div id="formkeep-embed" data-formkeep-url="{{ .Params.form_url }}"></div>
-
-        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
-
-        <script>
-        const formkeepEmbed = document.querySelector('#formkeep-embed')
-        formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
-          console.log('Submitting form...')
-        })
-        formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-          console.log('Submitted form...')
-        })
-        </script>
-      </div>
-    </div>
-    {{ end }}
-
-    {{ if .Params.show_register_button }}
-    <div class="text-center mt-4">
-      <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
-    </div>
-    {{ end }}
-
-    <div class="text-center mt-4">
-      <a href="{{ .Site.BaseURL }}events" class="btn btn-secondary">Back to All Events</a>
-    </div>
   </div>
-</section>
 
-{{ if .Params.show_register_button }}
-<script>
-function scrollToRegistration() {
-  document.getElementById('registration-form').scrollIntoView({behavior: 'smooth'});
-}
-</script>
-{{ end }}
+  <script>
+  function scrollToRegistration() {
+    const registrationForm = document.getElementById('registration-form');
+    if (registrationForm) {
+      registrationForm.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  </script>
+</section>
 
 {{ end }}
