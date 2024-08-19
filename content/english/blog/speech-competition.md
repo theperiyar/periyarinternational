@@ -1,5 +1,5 @@
 ---
-title: "The Power of Speech: Celebrating Periyar's Legacy"
+title: "Speech Contest"
 date: 2018-09-12T14:51:12+06:00
 author: Mark Dinn
 image_webp: images/blog/Img_Speech.webp

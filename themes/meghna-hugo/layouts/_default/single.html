@@ -52,7 +52,7 @@
           {{ $relatedEvents := where $relatedEvents "Permalink" "!=" $currentPage.Permalink }}
           {{ $relatedEvents := $relatedEvents | intersect .Site.RegularPages.ByTitle }}
           {{ $relatedEvents := $relatedEvents | union (.Site.RegularPages.Related . ) }}
-          {{ $relatedEvents := $relatedEvents | first 3 }}
+          {{ $relatedEvents := $relatedEvents | first 5 }}
           {{ with $relatedEvents }}
           <ul>
             {{ range . }}

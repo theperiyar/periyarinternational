@@ -1,10 +1,10 @@
 ---
-title: "Drawing"
+title: "Drawing Competition"
 date: 2018-09-12T14:51:12+06:00
 author: Mark Dinn
 image_webp: images/blog/Img_Drawing.webp
 image: images/blog/Img_Drawing.jpg
-description : " A picture is worth a thousand words"
+description : "A picture is worth a thousand words"
 is_event: true
 show_breadcrumb: true
 show_register_button: true

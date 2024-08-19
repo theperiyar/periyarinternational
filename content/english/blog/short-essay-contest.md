@@ -1,10 +1,10 @@
 ---
-title: "Let your creative juices flow from your pen to paper"
+title: "Essay Writing"
 date: 2018-09-12T12:52:36+06:00
 author: John Doe
 image_webp: images/blog/Img_Essay.webp
 image: images/blog/Img_Essay.jpg
-description : "Let your creative juices flow from your pen to paper for the Periyar 145 celebratory event"
+description : "Let your creative juices flow from your pen to paper"
 is_event: true
 show_breadcrumb: true
 show_register_button: true

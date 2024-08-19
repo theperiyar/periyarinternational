@@ -1,10 +1,10 @@
 ---
-title: "Kahoot - Periyar 1000"
+title: "Kahoot Quiz"
 date: 2018-09-12T12:52:36+06:00
 author: John Doe
-image_webp: images/blog/Img_DravidianIcons.webp
-image: images/blog/Img_DravidianIcons.jpg
-description : "Enact your leader"
+image_webp: images/blog/Img_Kahoot.webp
+image: images/blog/Img_Kahoot.jpg
+description : "Challenge your knowledge of 'Periyar 1000' with an engaging Kahoot quiz!"
 is_event: true
 show_breadcrumb: true
 show_register_button: true
@@ -13,27 +13,18 @@ form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 ---
 
+## Join Us for an Exciting Kahoot Quiz on "Periyar 1000"!
 
-Dressed as iconic Dravidian leaders, our children don't just put on costumes; they step into a rich tapestry of experiences. Each outfit is a portal to an era of transformation, and each character they embody carries a message that has resonated through time. As they enact stories of resilience, courage, and change, they don't just entertain – they educate and inspire.
+Join us for an exciting Kahoot quiz that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
 
-### Rules / Guidelines
+### Rules:
 
-- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
-- **Time Limit**: Must not exceed **two (2) minutes**.
-- **Choice of Leaders to Enact**: Please choose one (1) leader from the list below:
-   * Thanthai Periyar
-   * Arignar Anna
-   * Annal Ambedkar
-   * Annai Nagammaiyar
-   * Annai Maniammaiyar
-   * Kalaignar Karunanidhi
-   * Pandithar Ayothi Dasar
-   * A T Panneerselvam
-   * Pity Thiagarayar
-   * Puratchi Kavingar Bharathidasan
-   * Moovalur Ramamirtham Ammaiyar
-   * Dr T M Nair
-   * W P Soundarapandian
-- **Character Choice**: Kindly email your chosen character to events@periyarinternational.org by **Tuesday, September 17, 2024**
-- **Quote**: As you enact the leader of your choice, you may recite a quote or highlight their significant contributions.
- 
+- **Participation:** The quiz is open to all, and you can join from anywhere using your smartphone, tablet, or computer.
+- **Content:** All questions will be based on the content of "Periyar 1000." Familiarize yourself with the book to maximize your chances of winning.
+- **Timing:** Each question will have a set time limit for answering. Make sure to respond quickly, as both accuracy and speed count!
+- **Scoring:** Points are awarded based on correct answers and response time. The faster you answer correctly, the more points you earn.
+- **No Cheating:** To keep the competition fair, participants are encouraged to rely solely on their knowledge—no outside help allowed!
+- **Prizes:** The top scorers will receive special recognition and prizes, so give it your best shot!
+
+Get ready to dive into the world of "Periyar 1000" and test your knowledge in a friendly competition. We look forward to seeing who comes out on top!
+
