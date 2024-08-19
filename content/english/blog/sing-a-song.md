@@ -5,6 +5,12 @@ image_webp: images/blog/Img_SingASong.webp
 image: images/blog/Img_SingASong.jpg
 author: John Doe
 description : "Sing for Social Justice"
+is_event: true
+show_breadcrumb: true
+show_register_button: true
+show_form: true
+form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
+show_related_events: true
 ---
 
 Participate in the celebration of Periyar's ideals by sharing your vocal talent. Singing a song isn't just about the melody; it's about expressing your thoughts, emotions, and messages through the power of music. Are you a natural born singer or someone learning music? Periyar 145 celebratory event encourages you to showcase your musical talent by singing songs relating to the theme of social justice, equality, humanism. Vocalize your empathy, caring and compassion musically. We can't wait to hear you sing!
@@ -34,5 +40,4 @@ Participate in the celebration of Periyar's ideals by sharing your vocal talent.
 ###
 
 - **Song Choice**:  Kindly email your song selection to events@periyarinternational.org by **Tuesday, September 17, 2024**.
-
-**Limited spots only! Click [here](#) to register immediately!!!**
+ 

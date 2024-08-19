@@ -1,5 +1,5 @@
 ---
-title: "Enact your leader"
+title: "Kahoot - Periyar 1000"
 date: 2018-09-12T12:52:36+06:00
 author: John Doe
 image_webp: images/blog/Img_DravidianIcons.webp
@@ -31,6 +31,21 @@ Dressed as iconic Dravidian leaders, our children don't just put on costumes; th
 - **Character Choice**: Kindly email your chosen character to events@periyarinternational.org by **Tuesday, September 17, 2024**
 - **Quote**: As you enact the leader of your choice, you may recite a quote or highlight their significant contributions.
 
-**Limited spots only! Click [here](#) to register immediately!!!**
+<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"></div>
 
-<div data-paperform-id="hsomy1uf"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
+  console.log('Submitting form...')
+})
+
+formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+})
+
+</script>

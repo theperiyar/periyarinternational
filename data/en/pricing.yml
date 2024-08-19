@@ -9,7 +9,7 @@ pricing:
       description : "Support our mission to spread Periyar's humanistic ideas. Your contribution helps us organize events and create awareness."
       button:
         label : "Donate Now"
-        link : "#donate"
+        link : "/blog/support-donate-now/"
       
     # support option 2
     - name : "Attend Events"
@@ -17,7 +17,7 @@ pricing:
       description : "Participate in our conferences and events, such as the Periyar 146th birthday celebration."
       button:
         label : "View Events"
-        link : "#events"
+        link : "/blog/support-attend-events/"
         
     # support option 3
     - name : "Start a Chapter"
@@ -25,7 +25,7 @@ pricing:
       description : "Form a country-specific chapter of Periyar International in your region, following local regulations."
       button:
         label : "Learn More"
-        link : "#start-chapter"
+        link : "/blog/support-start-chapter"
         
     # support option 4
     - name : "Youth Programs"
@@ -33,4 +33,4 @@ pricing:
       description : "Join our youth programs, including speech contests, essay writing, and other activities."
       button:
         label : "Youth Activities"
-        link : "#youth-programs"
+        link : "/blog/support-youth-programs"

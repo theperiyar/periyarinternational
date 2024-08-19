@@ -5,6 +5,12 @@ author: Mark Dinn
 image_webp: images/blog/Img_Drawing.webp
 image: images/blog/Img_Drawing.jpg
 description : " A picture is worth a thousand words"
+is_event: true
+show_breadcrumb: true
+show_register_button: true
+show_form: true
+form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
+show_related_events: true
 ---
 
 
@@ -17,5 +23,3 @@ Periyar 145 celebratory event encourages you to showcase your artistic talent to
 - **Title**: Decorate your art with a Periyar quote. For your quick reference, a list of Periyar quotes will be sent to your confirmation email.
 - **Submission Deadline**: Email your submission to events@periyarinternational.org by **Tuesday, September 17, 2024**.
 - **Featured in Magazine**: Special prize *Drawings* will be featured in the ***Periyar Pinju*** magazine.
-
-**Limited spots only! Click [here](#) to register immediately!!!**

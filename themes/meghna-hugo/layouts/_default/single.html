@@ -1,32 +1,120 @@
 {{ define "main" }}
-
 {{ partial "navigation.html" . }}
 
 <section class="section">
   <div class="container">
+    <!-- Breadcrumb -->
+    {{ if .Params.show_breadcrumb }}
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb bg-transparent p-0">
+        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}events">Events</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    {{ end }}
+
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
+        {{ if not .Params.is_event }}
         <ul class="list-inline mb-50">
           <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li>
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
         </ul>
+        {{ end }}
+        {{ if .Params.Image }}
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+        {{ end }}
       </div>
+    </div>
+
+    {{ if .Params.show_register_button }}
+    <div class="text-center mb-4">
+      <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
+    </div>
+    {{ end }}
+
+    <div class="row">
+      <!-- Content column -->
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
         </div>
+
+        {{ if .Params.show_related_events }}
+        <section id="related-events" class="mt-5">
+          <h2>You may also be interested in</h2>
+          {{ $currentPage := . }}
+          {{ $relatedEvents := where .Site.RegularPages "Params.is_event" true }}
+          {{ $relatedEvents := where $relatedEvents "Permalink" "!=" $currentPage.Permalink }}
+          {{ $relatedEvents := $relatedEvents | intersect .Site.RegularPages.ByTitle }}
+          {{ $relatedEvents := $relatedEvents | union (.Site.RegularPages.Related . ) }}
+          {{ $relatedEvents := $relatedEvents | first 3 }}
+          {{ with $relatedEvents }}
+          <ul>
+            {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <p>No related events found.</p>
+          {{ end }}
+        </section>
+        {{ end }}
+
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}
+
         <!-- comments -->
         <div class="mt-5">
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
     </div>
+
+    {{ if .Params.show_form }}
+    <!-- Form section -->
+    <div class="row mt-5" id="registration-form">
+      <div class="col-lg-8 offset-lg-2">
+        <h2 class="text-center">Register for {{ .Title }}</h2>
+        <div id="formkeep-embed" data-formkeep-url="{{ .Params.form_url }}"></div>
+
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+        <script>
+        const formkeepEmbed = document.querySelector('#formkeep-embed')
+        formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
+          console.log('Submitting form...')
+        })
+        formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+          console.log('Submitted form...')
+        })
+        </script>
+      </div>
+    </div>
+    {{ end }}
+
+    {{ if .Params.show_register_button }}
+    <div class="text-center mt-4">
+      <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
+    </div>
+    {{ end }}
+
+    <div class="text-center mt-4">
+      <a href="{{ .Site.BaseURL }}events" class="btn btn-secondary">Back to All Events</a>
+    </div>
   </div>
 </section>
+
+{{ if .Params.show_register_button }}
+<script>
+function scrollToRegistration() {
+  document.getElementById('registration-form').scrollIntoView({behavior: 'smooth'});
+}
+</script>
+{{ end }}
 
 {{ end }}

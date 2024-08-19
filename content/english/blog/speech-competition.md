@@ -5,6 +5,12 @@ author: Mark Dinn
 image_webp: images/blog/Img_Speech.webp
 image: images/blog/Img_Speech.jpg
 description : "The Power of Speech: Celebrating Periyar's Legacy"
+is_event: true
+show_breadcrumb: true
+show_register_button: true
+show_form: true
+form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
+show_related_events: true
 ---
 
 
@@ -63,4 +69,4 @@ As we are getting ready to celebrate the life and legacy of Periyar Ayya, on his
 
 - **Personal Perspective**: Feel free to share your thoughts, stories, or personal experiences related to your chosen topic.
 
-**Limited spots only! Click [here](#) to register immediately!!!**
+ 

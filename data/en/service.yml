@@ -14,9 +14,9 @@ service:
       content : "Express Periyar's messages through music. [Learn More](/blog/sing-a-song/)"
       
     # event item loop
-    - name : "Dravidian Icons"
-      icon : ti-user # themify icon pack : https://themify.me/themify-icons
-      content : "Enact iconic Dravidian leaders and their contributions. [Learn More](/blog/dravidian-icons/)"
+    - name : "Kahoot"
+      icon : ti-game # themify icon pack : https://themify.me/themify-icons
+      content : "Test your knowledge with our Periyar 1000 book quiz. [Learn More](/blog/kahoot-quiz/)"
       
     # event item loop
     - name : "Drawing"

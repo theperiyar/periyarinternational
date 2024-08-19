@@ -5,6 +5,12 @@ author: John Doe
 image_webp: images/blog/Img_DravidianIcons.webp
 image: images/blog/Img_DravidianIcons.jpg
 description : "Enact your leader"
+is_event: true
+show_breadcrumb: true
+show_register_button: true
+show_form: true
+form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
+show_related_events: true
 ---
 
 
@@ -30,22 +36,4 @@ Dressed as iconic Dravidian leaders, our children don't just put on costumes; th
    * W P Soundarapandian
 - **Character Choice**: Kindly email your chosen character to events@periyarinternational.org by **Tuesday, September 17, 2024**
 - **Quote**: As you enact the leader of your choice, you may recite a quote or highlight their significant contributions.
-
-<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"></div>
-
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
-
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
-
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
-  console.log('Submitting form...')
-})
-
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-
-</script>
+ 
