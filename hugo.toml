@@ -109,7 +109,7 @@ url = "#about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Upcoming Events"
+name = "Events"
 url = "#services"
 weight = 2
 
