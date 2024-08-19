@@ -1,5 +1,5 @@
 ---
-title: "A picture is worth a thousand words"
+title: "Drawing"
 date: 2018-09-12T14:51:12+06:00
 author: Mark Dinn
 image_webp: images/blog/Img_Drawing.webp
