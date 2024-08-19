@@ -1,4 +1,3 @@
-
 ---
 title: "Our Mission"
 date: 2018-09-12T14:51:12+06:00
