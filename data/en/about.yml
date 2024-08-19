@@ -5,12 +5,12 @@ about:
   about_item :
   - icon : ti-world # themify icon pack : https://themify.me/themify-icons
     title : "Our Mission"
-    content : "Periyar International propagates the humanistic ideas of Periyar E.V.Ramasamy to the world, promoting self-respect, social justice, and rational thinking. [Read More](/blog/periyar-international-mission/)"
+    content : "Periyar International propagates the humanistic ideas of Periyar E.V.Ramasamy to the world, promoting self-respect, social justice, and rational thinking. [Read More](/blog/mission/)"
   
   - icon : ti-flag # themify icon pack : https://themify.me/themify-icons
     title : "Our Organization"
-    content : "Founded in 1994 in Chicago, Periyar International now has chapters across the world, uniting humanists, rationalists, and social justice advocates. Country-specific chapters can be formed according to local rules with the consent of Dravidar Kazagam and our operational director. [Read More](/blog/periyar-international-global-impact/)"
+    content : "Founded in 1994 in Chicago, Periyar International now has chapters across the world, uniting humanists, rationalists, and social justice advocates. Country-specific chapters can be formed according to local rules with the consent of Dravidar Kazagam and our operational director. [Read More](/blog/organization/)"
 
   - icon : ti-crown # themify icon pack : https://themify.me/themify-icons
     title : "K. Veeramani Award"
-    content : "We instituted the K. Veeramani Award for Social Justice to recognize contributions in creating awareness on social equality and human dignity. [Read More](/blog/k-veeramani-award/)"    
+    content : "We instituted the K. Veeramani Award for Social Justice to recognize contributions in creating awareness on social equality and human dignity. [Read More](/blog/award/)"    
