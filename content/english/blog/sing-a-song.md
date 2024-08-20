@@ -16,11 +16,17 @@ show_related_events: true
 
 Participate in the celebration of Periyar's ideals by sharing your vocal talent. Singing a song isn't just about the melody; it's about expressing your thoughts, emotions, and messages through the power of music. Are you a natural born singer or someone learning music? Periyar 145 celebratory event encourages you to showcase your musical talent by singing songs relating to the theme of social justice, equality, humanism. Vocalize your empathy, caring and compassion musically. We can't wait to hear you sing!
 
-### Rules / Guidelines
+**General Rules:**
 
-- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
-- **Song Duration**: Your performance must not exceed **three (3) minutes**.
-- **Song Selection**: You may choose one (1) song from the list below
+- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
+- **Eligibility:** Open to all; participants must adhere to the time limit.
+- **Recognition:** The top performers will receive special recognition and prizes.
+
+**Specific Rules:**
+
+- **Song Duration:** Performances must not exceed **3 minutes**.
+- **Song Selection:** Choose one song from the provided list and email your choice to **events@periyarinternational.org** by **Tuesday, September 17, 2024**.
+- **Performance:** Participants will be judged based on vocal ability, adherence to time limits, and song choice.
 
 | S.No | Songs |
 |------|-------|
@@ -38,7 +44,5 @@ Participate in the celebration of Periyar's ideals by sharing your vocal talent.
 | 12 | தலைவாரிப் பூச்சூடி உன்னை \| பாவேந்தர் பாரதிதாசன் |
 | 13 | சங்கே முழங்கு \| பாவேந்தர் பாரதிதாசன் |
 
-###
 
-- **Song Choice**:  Kindly email your song selection to events@periyarinternational.org by **Tuesday, September 17, 2024**.
  

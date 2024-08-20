@@ -1,11 +1,11 @@
 ---
 title: "Submission"
 date: 2018-09-12T12:52:36+06:00
-image_webp: images/blog/submission.webp
-image: images/blog/submission.jpg
+image_webp: images/blog/Img_Submission.webp
+image: images/blog/Img_Submission.jpg
 author: John Doe
 description : "Upload your files for essay/drawing"
-button_label : "Submit Details"
+button_label : "Submit Files"
 is_event: false
 show_breadcrumb: false
 show_register_button: true

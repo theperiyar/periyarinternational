@@ -13,14 +13,21 @@ form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 ---
 
-The Periyar 146 celebratory event encourages you to bring out the writer in you. This is your chance to influence others through your words, as written words hold stronger emphasis compared to spoken words. Writing allows for subtler yet more impactful messages. Your theme-based writing on topics related to Periyar, social justice, equality, and humanism can raise awareness and potentially create a difference, especially among your peers and the wider population.
+The Periyar birth anniversary celebratory event encourages you to bring out the writer in you. This is your chance to influence others through your words, as written words hold stronger emphasis compared to spoken words. Writing allows for subtler yet more impactful messages. Your theme-based writing on topics related to Periyar, social justice, equality, and humanism can raise awareness and potentially create a difference, especially among your peers and the wider population.
 
-### Rules / Guidelines
+**General Rules:**
 
-- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
-- **Language Choice**: You have the option to write your short essay in either **Tamil** or **English**.
-- **Word Limit**: The essay should not exceed **five hundred (500) words**.
-- **Topic selection**: Choose **one (1)** of the following topics for your essay.
+- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
+- **Language:** Essays can be written in either **Tamil** or **English**.
+- **Eligibility:** Open to all; participants must adhere to the word limit.
+- **Recognition:** Special prize essays will be featured in the **Periyar Pinju** magazine.
+
+**Specific Rules:**
+
+- **Word Limit:** Essays should not exceed **500 words**.
+- **Topic Selection:** Participants must choose one of the provided topics.
+- **Submission Deadline:** Submissions should be made through the link provided in the registration confirmation email by **Tuesday, September 17, 2024**.
+
 
 ### Essay Topics in English:
 
@@ -57,7 +64,3 @@ The Periyar 146 celebratory event encourages you to bring out the writer in you.
 13. இன்று பெரியாரிடம் நீங்கள் ஒரு கேள்வியைக் கேட்டால்: அது என்னவாக இருக்கும்?
 14. பெரியார் ஒரு மீட்பர். ஏன் / எப்படி?
 
-### Submission Details
-
-- **Submission Deadline**: Email your submission to events@periyarinternational.org by **Tuesday, September 17, 2024**.
-- **Featured in Magazine**: Special prize *Essays* will be featured in the ***Periyar Pinju*** magazine.

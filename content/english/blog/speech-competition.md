@@ -18,15 +18,23 @@ show_related_events: true
 
 "Speech is power: speech is to persuade, to convert, to compel." — Ralph Waldo Emerson, an American essayist and lecturer
 
-As we are getting ready to celebrate the life and legacy of Periyar Ayya, on his 145th birthday, we think it would be very fitting for our youth to engage in a heartfelt rhetorical session learning about what turned a common man EVR into "Periyar" indeed. Our intent is to encourage inquisitive young minds to reason, rationalize and fearlessly ask questions especially when something does not connect with the intellect… just the way Periyar did. In an effort to follow in his footsteps and pave the way for more "Periyars" in-the-making, let's get the word out about few youth events to reel in more participants!
+As we are getting ready to celebrate the life and legacy of Periyar Ayya, we think it would be very fitting for our youth to engage in a heartfelt rhetorical session learning about what turned a common man EVR into "Periyar" indeed. Our intent is to encourage inquisitive young minds to reason, rationalize and fearlessly ask questions especially when something does not connect with the intellect… just the way Periyar did. In an effort to follow in his footsteps and pave the way for more "Periyars" in-the-making, let's get the word out about few youth events to reel in more participants!
 
-### Rules / Guidelines
+**General Rules:**
 
-- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
-- **Speech Time Limit**: Your speech must not exceed **two (2) minutes**.
-- **Language Choice**: You have the option to speak in either **Tamil** or **English**.
-- **Intro with Periyar Quote**: We strongly encourage all participants to share a Periyar quote at the beginning of their live event after introducing themselves. A list of reference quotes will be sent to your confirmation email.
-- **Topic Selection**: Choose **one (1)** of the following topics for your speech.
+- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
+- **Language:** Speeches can be delivered in either **Tamil** or **English**.
+- **Eligibility:** Open to all; participants must adhere to the time limit.
+- **Recognition:** The top performers will receive special recognition and prizes.
+
+**Specific Rules:**
+
+- **Speech Time Limit:** Speeches must not exceed **2 minutes**.
+- **Intro with Periyar Quote:** Participants are encouraged to start their speech with a Periyar quote after introducing themselves. A list of quotes will be sent to your confirmation email.
+- **Topic Selection:** Participants must choose one of the provided topics for their speech.
+- **Personal Perspective**: Feel free to share your thoughts, stories, or personal experiences related to your chosen topic.
+
+
 
 ### Speech Topics in English:
 
@@ -68,6 +76,5 @@ As we are getting ready to celebrate the life and legacy of Periyar Ayya, on his
 13. இன்று பெரியாரிடம் நீங்கள் ஒரு கேள்வியைக் கேட்டால்: அது என்னவாக இருக்கும்?
 14. பெரியார் ஒரு மீட்பர். ஏன் / எப்படி?
 
-- **Personal Perspective**: Feel free to share your thoughts, stories, or personal experiences related to your chosen topic.
 
  

@@ -14,18 +14,21 @@ form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 ---
 
-## Join Us for an Exciting Kahoot Quiz on "Periyar 1000"!
 
-Join us for an exciting Kahoot quiz that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
+Join us for an exciting Kahoot quiz on **Sunday, September 22, 2024**, that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
 
-### Rules:
+**General Rules:**
 
-- **Participation:** The quiz is open to all, and you can join from anywhere using your smartphone, tablet, or computer.
-- **Content:** All questions will be based on the content of "Periyar 1000." Familiarize yourself with the book to maximize your chances of winning.
-- **Timing:** Each question will have a set time limit for answering. Make sure to respond quickly, as both accuracy and speed count!
+- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
+- **Language:** The quiz will be conducted in English.
+- **Eligibility:** The quiz is open to all; participants can join using their smartphones, tablets, or computers.
+- **Recognition:** The top scorers will receive special recognition and prizes.
+
+**Specific Rules:**
+
+- **Content:** Participants are encouraged to familiarize themselves with the “Periyar 1000” book. The registration confirmation email will include an attachment of “Periyar 1000” for reference.
+- **Timing:** Each question will have a set time limit. Respond quickly, as both accuracy and speed count!
 - **Scoring:** Points are awarded based on correct answers and response time. The faster you answer correctly, the more points you earn.
-- **No Cheating:** To keep the competition fair, participants are encouraged to rely solely on their knowledge—no outside help allowed!
-- **Prizes:** The top scorers will receive special recognition and prizes, so give it your best shot!
 
 Get ready to dive into the world of "Periyar 1000" and test your knowledge in a friendly competition. We look forward to seeing who comes out on top!
 
