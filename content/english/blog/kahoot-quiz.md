@@ -5,6 +5,7 @@ author: John Doe
 image_webp: images/blog/Img_Kahoot.webp
 image: images/blog/Img_Kahoot.jpg
 description : "Challenge your knowledge of 'Periyar 1000' with an engaging Kahoot quiz!"
+button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
 show_register_button: true

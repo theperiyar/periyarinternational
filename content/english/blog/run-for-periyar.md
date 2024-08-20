@@ -5,6 +5,7 @@ author: Mark Dinn
 image_webp: images/blog/Img_RunOrWalk.webp
 image: images/blog/Img_RunOrWalk.jpg
 description : "Run or walk in honor of Periyar's legacy—track your journey using fitness app!"
+button_label : "Submit Details"
 is_event: true
 show_breadcrumb: true
 show_register_button: true

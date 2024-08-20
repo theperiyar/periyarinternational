@@ -99,7 +99,7 @@ logo = ""
 [params.header.topbar]
 enable = true
 email = "info@periyarinternational.org"
-location = "USA"
+location = "Chicago"
 
 
 ################### English Navigation ########################

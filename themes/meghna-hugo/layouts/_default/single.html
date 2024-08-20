@@ -36,7 +36,7 @@
       <div class="col-lg-8 offset-lg-2">
         {{ if .Params.show_register_button }}
         <div class="text-center mb-4">
-          <button class="btn btn-primary" onclick="scrollToRegistration()">Register Now</button>
+          <button class="btn btn-primary" onclick="scrollToRegistration()">{{.Params.button_label}}</button>
         </div>
         {{ end }}
 
@@ -46,7 +46,7 @@
 
         {{ if .Params.show_related_events }}
         <section id="related-events" class="mt-5">
-          <h2>You may also be interested in</h2>
+          <h3>Other events you may also be interested in:</h3>
           {{ $currentPage := . }}
           {{ $relatedEvents := where .Site.RegularPages "Params.is_event" true }}
           {{ $relatedEvents := where $relatedEvents "Permalink" "!=" $currentPage.Permalink }}
@@ -91,9 +91,9 @@
         </div>
         {{ end }}
 
-        <div class="mt-5">
+        <!--<div class="mt-5">
           {{ template "_internal/disqus.html" . }}
-        </div>
+        </div>-->
       </div>
     </div>
   </div>

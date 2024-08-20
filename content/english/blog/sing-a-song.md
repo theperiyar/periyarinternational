@@ -5,6 +5,7 @@ image_webp: images/blog/Img_SingASong.webp
 image: images/blog/Img_SingASong.jpg
 author: John Doe
 description : "Sing for Social Justice"
+button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
 show_register_button: true

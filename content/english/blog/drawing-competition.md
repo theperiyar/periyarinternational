@@ -5,6 +5,7 @@ author: Mark Dinn
 image_webp: images/blog/Img_Drawing.webp
 image: images/blog/Img_Drawing.jpg
 description : "A picture is worth a thousand words"
+button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
 show_register_button: true
