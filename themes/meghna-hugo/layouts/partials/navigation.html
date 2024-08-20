@@ -2,7 +2,7 @@
 	<div class="top-bar">
 	  <div class="social-icons">
 		{{ range site.Params.social }}
-		  <a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+		  <a href="{{ .link | relLangURL }}"><i class="{{ .icon }}"></i></a>
 		{{ end }}
 	  </div>
 	  <div class="contact-info">
@@ -14,14 +14,15 @@
 	  <div class="container">
 		<div class="logo">
 		  {{ if site.Params.logo }}
-			<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+			<img src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}">
 		  {{ else }}
 			{{ site.Title }}
 		  {{ end }}
 		</div>
 		<ul class="nav-links">
+		  {{ $currentPage := . }}
 		  {{ range site.Menus.main }}
-			<li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+			<li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
 		  {{ end }}
 		</ul>
 	  </div>
