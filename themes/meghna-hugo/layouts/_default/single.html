@@ -28,10 +28,11 @@
     </ul>
     {{ end }}
     
-        {{ if .Params.Image }}
+      {{ if .Params.Image }}
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
         {{ end }}
       </div>
+
 
       <div class="col-lg-8 offset-lg-2">
         {{ if .Params.show_register_button }}
@@ -52,7 +53,7 @@
           {{ $relatedEvents := where $relatedEvents "Permalink" "!=" $currentPage.Permalink }}
           {{ $relatedEvents := $relatedEvents | intersect .Site.RegularPages.ByTitle }}
           {{ $relatedEvents := $relatedEvents | union (.Site.RegularPages.Related . ) }}
-          {{ $relatedEvents := $relatedEvents | first 5 }}
+          {{ $relatedEvents := $relatedEvents | first 10 }}
           {{ with $relatedEvents }}
           <ul>
             {{ range . }}
