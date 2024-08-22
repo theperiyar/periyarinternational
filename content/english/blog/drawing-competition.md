@@ -12,6 +12,7 @@ show_register_button: true
 show_form: true
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
+image_icon: brush
 ---
 
 As part of the Periyar birthday celebration, we invite you to showcase your artistic talent by drawing or painting a picture or cartoon that reflects themes of **Social Justice, Equality, Women Empowerment, Humanism, and Futuristic Scientific Inventions**. We encourage participants of all ages to express their creativity and bring these important concepts to life through their art. We can't wait to see the incredible works of our little Picassos!

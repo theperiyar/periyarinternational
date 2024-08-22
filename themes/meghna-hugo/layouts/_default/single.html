@@ -19,7 +19,7 @@
     </nav>
     {{ end }}
 
-    <h1>{{ .Title }}</h1>
+    <!--<h1>{{ .Title }}</h1>-->
 
     {{ if not .Params.is_event }}
     <ul class="list-inline mb-50">
@@ -29,14 +29,19 @@
     {{ end }}
     
      {{ if .Params.Image }}
-        <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+       <!-- <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">-->
+       <div class="event-header" style="background-color: #3c80e7;" >
+        <i class="material-icons event-icon">{{.Params.image_icon}}</i>
+        <h2 class="event-title">{{.Params.title}}</h2>
+        <p class="event-description">{{.Params.description}}</p>
+      </div>        
         {{ end }}
             </div>
 
-
+            
       <div class="col-lg-8 offset-lg-2">
         {{ if .Params.show_register_button }}
-        <div class="text-center mb-4">
+        <div class="text-center mb-4" style="margin-top: 20px;">
           <button class="btn btn-primary" onclick="scrollToRegistration()">{{.Params.button_label}}</button>
         </div>
         {{ end }}
@@ -72,7 +77,7 @@
 
         {{ if .Params.show_form }}
         <div class="row mt-5" id="registration-form">
-          <div class="col-lg-8 offset-lg-2">
+          <div class="col-lg-10 offset-lg-1">
             <h2 class="text-center">Periyar 146 Birthday Event Registration</h2>
             <div id="formkeep-embed" data-formkeep-url="{{ .Params.form_url }}"></div>
     
