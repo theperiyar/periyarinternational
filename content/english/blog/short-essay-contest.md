@@ -13,6 +13,7 @@ show_form: true
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 image_icon: create
+form_name: "Registration Form"
 ---
 
 The Periyar birth anniversary celebratory event encourages you to bring out the writer in you. This is your chance to influence others through your words, as written words hold stronger emphasis compared to spoken words. Writing allows for subtler yet more impactful messages. Your theme-based writing on topics related to Periyar, social justice, equality, and humanism can raise awareness and potentially create a difference, especially among your peers and the wider population.

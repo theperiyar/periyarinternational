@@ -13,6 +13,7 @@ show_form: true
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 image_icon: mic
+form_name: "Registration Form"
 ---
 
 

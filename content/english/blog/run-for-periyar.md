@@ -13,6 +13,7 @@ show_form: true
 form_url: "https://formkeep.com/p/4293d6210bb5c1bb9147605419345e7f?embedded=1"
 show_related_events: true
 image_icon : directions_run
+form_name: "Submission Form"
 ---
 
 Honor the legacy of Periyar by participating in our "Run or Walk for Periyar" event! This event encourages you to walk or run a set distance using your preferred online fitness app. Track your journey, stay active, and contribute to a cause that promotes rationalism and social justice.
