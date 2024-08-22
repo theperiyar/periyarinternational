@@ -15,7 +15,7 @@ show_related_events: true
 ---
 
 
-Join us for an exciting Kahoot quiz on **Sunday, September 22, 2024**, that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
+Join us for an exciting Kahoot quiz, that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
 
 **General Rules:**
 

@@ -15,20 +15,20 @@ show_related_events: true
 ---
 
 
-Join us for an exciting Kahoot quiz on **Sunday, September 22, 2024**, that will challenge your knowledge of the book "Periyar 1000"! This interactive event is designed to engage participants in a fun and educational experience, exploring the profound ideas and history captured in the book.
+Unleash the power of traditional rhythms with our 'Parai Beats' competition! Let your beats echo the rich cultural heritage of TamilNadu and captivate the audience. Join us in celebrating the essence of our roots through the dynamic sound of the parai.
 
 **General Rules:**
 
 - **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
-- **Language:** The quiz will be conducted in English.
-- **Eligibility:** The quiz is open to all; participants can join using their smartphones, tablets, or computers.
-- **Recognition:** The top scorers will receive special recognition and prizes.
+- **Language:** The competition will be conducted in **Tamil** and **English**.
+- **Eligibility:** The competition is open to all; participants must perform solo.
+- **Recognition:** The best performances will receive special recognition and prizes.
 
 **Specific Rules:**
 
-- **Content:** Participants are encouraged to familiarize themselves with the “Periyar 1000” book. The registration confirmation email will include an attachment of “Periyar 1000” for reference.
-- **Timing:** Each question will have a set time limit. Respond quickly, as both accuracy and speed count!
-- **Scoring:** Points are awarded based on correct answers and response time. The faster you answer correctly, the more points you earn.
+- **Instrument:** Participants must perform using the traditional **parai** drum. Other instruments are not permitted.
+- **Performance Duration:** Each performance should be between **3 to 5 minutes**. Ensure your act stays within this time frame.
+- **Judging Criteria:** Performances will be judged on **rhythm, creativity, stage presence, and adherence to cultural authenticity**.
 
-Get ready to dive into the world of "Periyar 1000" and test your knowledge in a friendly competition. We look forward to seeing who comes out on top!
+
 
