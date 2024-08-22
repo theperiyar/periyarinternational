@@ -114,7 +114,7 @@ url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Support Us"
+name = "Support"
 url = "#pricing"
 weight = 3
 

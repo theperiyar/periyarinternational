@@ -1,51 +1,30 @@
 ---
-title: "Kahoot - Periyar 1000"
-date: 2018-09-12T12:52:36+06:00
-author: John Doe
+title: "Donate Now"
+date: 2019-09-12T12:52:36+06:00
+author: President
 image_webp: images/blog/Img_DravidianIcons.webp
 image: images/blog/Img_DravidianIcons.jpg
-description : "Enact your leader"
+description : "Show your support!"
+is_event: true
+show_breadcrumb: false
+show_register_button: false
+show_form: false
+form_url: "https://formkeep.com/p/4293d6210bb5c1bb9147605419345e7f?embedded=1"
+show_related_events: false
+image_icon : volunteer_activism
 ---
 
+  
 
-Dressed as iconic Dravidian leaders, our children don't just put on costumes; they step into a rich tapestry of experiences. Each outfit is a portal to an era of transformation, and each character they embody carries a message that has resonated through time. As they enact stories of resilience, courage, and change, they don't just entertain – they educate and inspire.
 
-### Rules / Guidelines
+Express your gratitude to Periyar by making a donation. Supporting charities can be done in several ways, including online donations through PayPal or by mailing in your contribution.
 
-- **Registration Deadline**: End of day on **Sunday, September 15, 2024**.
-- **Time Limit**: Must not exceed **two (2) minutes**.
-- **Choice of Leaders to Enact**: Please choose one (1) leader from the list below:
-   * Thanthai Periyar
-   * Arignar Anna
-   * Annal Ambedkar
-   * Annai Nagammaiyar
-   * Annai Maniammaiyar
-   * Kalaignar Karunanidhi
-   * Pandithar Ayothi Dasar
-   * A T Panneerselvam
-   * Pity Thiagarayar
-   * Puratchi Kavingar Bharathidasan
-   * Moovalur Ramamirtham Ammaiyar
-   * Dr T M Nair
-   * W P Soundarapandian
-- **Character Choice**: Kindly email your chosen character to events@periyarinternational.org by **Tuesday, September 17, 2024**
-- **Quote**: As you enact the leader of your choice, you may recite a quote or highlight their significant contributions.
+#####  Donate via [PayPal](https://www.paypal.com/us/fundraiser/charity/3378979)
 
-<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"></div>
+If you prefer to mail a check, please send it to the secure address below:
 
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+**Periyar International USA (EIN: 80-0282239)**  
+5652 Chapel Hill Rd  
+Gurnee, Illinois 60031
 
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
-
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
-  console.log('Submitting form...')
-})
-
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-
-</script>
+When sending a check, kindly include your name and address for notification.

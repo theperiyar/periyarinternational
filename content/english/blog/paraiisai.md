@@ -1,10 +1,10 @@
 ---
-title: "Parai Beats"
+title: "Parai Music"
 date: 2018-09-12T12:52:36+06:00
 author: John Doe
 image_webp: images/blog/Img_Kahoot.webp
 image: images/blog/Img_Kahoot.jpg
-description : "Showcase your rhythm and skill in our 'Parai Beats' to celebrate the vibrant heritage of Periyar!"
+description : "Showcase your rhythm and skill in our 'Parai Music' to celebrate the vibrant heritage of Periyar!"
 button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
@@ -16,7 +16,7 @@ image_icon : music_note
 ---
 
 
-Unleash the power of traditional rhythms with our 'Parai Beats' competition! Let your beats echo the rich cultural heritage of TamilNadu and captivate the audience. Join us in celebrating the essence of our roots through the dynamic sound of the parai.
+Unleash the power of traditional rhythms with our 'Parai Music' competition! Let your beats echo the rich cultural heritage of TamilNadu and captivate the audience. Join us in celebrating the essence of our roots through the dynamic sound of the parai.
 
 **General Rules:**
 

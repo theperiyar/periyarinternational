@@ -14,15 +14,15 @@ contact:
       info : "Phone: +1 (708) 361-1998"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: somailangovan@gmail.com"
+      info : "Email: president@periyarinternational.org"
 
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      info : "Website: www.periyarinternational.com"
+      info : "Website: https://periyarinternational.org"
 
   # Contact form
   contact_form:
     enable : true
-    form_action : "#" #contact form works with https://formspree.io
+    form_action : "#" #contact form works with https://formkeep.com
     name : "Your Name"
     email : "Your Email"
     subject : "Subject"

@@ -12,25 +12,25 @@ pricing:
         link : "/blog/support-donate-now/"
       
     # support option 2
-    - name : "Attend Events"
-      icon : "ti-calendar"
-      description : "Participate in our conferences and events, such as the Periyar 146th birthday celebration."
-      button:
-        label : "View Events"
-        link : "/blog/support-attend-events/"
+    #- name : "Attend Events"
+    #  icon : "ti-calendar"
+    #  description : "Participate in our conferences and events, such as the Periyar 146th birthday celebration."
+    #  button:
+    #    label : "View Events"
+    #    link : "/blog/support-attend-events/"
         
     # support option 3
-    - name : "Start a Chapter"
-      icon : "ti-world"
-      description : "Form a country-specific chapter of Periyar International in your region, following local regulations."
-      button:
-        label : "Learn More"
-        link : "/blog/support-start-chapter"
+    #- name : "Start a Chapter"
+    #  icon : "ti-world"
+    #  description : "Form a country-specific chapter of Periyar International in your region, following local regulations."
+    #  button:
+    #    label : "Learn More"
+    #    link : "/blog/support-start-chapter"
         
     # support option 4
-    - name : "Youth Programs"
-      icon : "ti-user"
-      description : "Join our youth programs, including speech contests, essay writing, and other activities."
-      button:
-        label : "Youth Activities"
-        link : "/blog/support-youth-programs"
+    #- name : "Youth Programs"
+    #  icon : "ti-user"
+    #  description : "Join our youth programs, including speech contests, essay writing, and other activities."
+    #  button:
+    #    label : "Youth Activities"
+    #    link : "/blog/support-youth-programs"

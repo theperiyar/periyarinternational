@@ -9,14 +9,14 @@ service:
       content : "Showcase your oratory skills on Periyar's ideals. [Learn More](/blog/speech-competition/)"
   
     # event item loop
-    - name : "Parai Beats"
+    - name : "Parai Music"
       icon : ti-music-alt # themify icon pack : https://themify.me/themify-icons
-      content : "Showcase your rhythm and skill in our. [Learn More](/blog/paraiisai/)"
+      content : "Showcase your rhythm and skill in our parai music. [Learn More](/blog/paraiisai/)"
       
      # event item loop
     - name : "Sing-a-Song"
       icon : ti-microphone-alt # themify icon pack : https://themify.me/themify-icons
-      content : "Express Periyar's messages through music. [Learn More](/blog/sing-a-song/)"
+      content : "Express Periyar's messages through song. [Learn More](/blog/sing-a-song/)"
     
     # event item loop
     - name : "Kahoot"
