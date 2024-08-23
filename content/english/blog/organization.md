@@ -1,10 +1,12 @@
 ---
 title: "Our Organization"
-date: 2018-09-12T14:51:12+06:00
-author: 
+date: 1994-11-13T14:51:12+06:00
+author: Periyar International
 image_webp: images/blog/periyar.webp
 image: images/blog/periyar.jpg
-description : "Our Organization"
+description : "Founded in 1994, to promote Periyar's ideals globally."
+image_icon: people
+is_event: false
 ---
 
 

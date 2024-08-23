@@ -1,10 +1,12 @@
 ---
 title: "Our Mission"
-date: 2018-09-12T14:51:12+06:00
-author: 
+date: 1994-11-13T14:51:12+06:00
+author: Periyar International
 image_webp: images/blog/periyar.webp
 image: images/blog/periyar.jpg
-description : "Our Mission"
+description : "Promoting rationalism, social justice, and equality"
+image_icon: lightbulb
+is_event: false
 ---
 
 

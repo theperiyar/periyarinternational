@@ -115,7 +115,7 @@ weight = 2
 
 [[Languages.en.menu.main]]
 name = "Support"
-url = "#pricing"
+url = "/blog/support-donate-now/"
 weight = 3
 
 [[Languages.en.menu.main]]
