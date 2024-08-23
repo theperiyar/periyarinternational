@@ -27,7 +27,7 @@ Participate in the celebration of Periyar's ideals by sharing your vocal talent.
 **Specific Rules:**
 
 - **Song Duration:** Performances must not exceed **3 minutes**.
-- **Song Selection:** Choose one song from the provided list and email your choice to **events@periyarinternational.org** by **Tuesday, September 17, 2024**.
+- **Song Selection:** Choose one song from the provided list and email your choice to **events@periyarinternational.org** by **Sunday, September 15, 2024**.
 - **Performance:** Participants will be judged based on vocal ability, adherence to time limits, and song choice.
 
 | S.No | Songs |
