@@ -16,15 +16,21 @@ image_icon : volunteer_activism
 
   
 
+## Show Your Appreciation for Periyar with a Donation
 
-Express your gratitude to Periyar by making a donation. Supporting charities can be done in several ways, including online donations through PayPal or by mailing in your contribution.
+You can support Periyar's mission by making a donation. Contributions can be made conveniently online via PayPal or by mailing a check.
 
-#####  Donate via [PayPal](https://www.paypal.com/us/fundraiser/charity/3378979)
+### How to Donate:
 
-If you prefer to mail a check, please send it to the secure address below:
+1. **Periyar International USA**  
+   - **Tax ID (EIN):** 80-0282239  
+   - **Chase Bank Account #:** 693313212  
+   - **Routing #:** 071000013 <br>
+<br>
+2. **PayPal:** [Donate here](https://www.paypal.com/us/fundraiser/charity/3378979)
 
-**Periyar International USA (EIN: 80-0282239)**  
-5652 Chapel Hill Rd  
-Gurnee, Illinois 60031
+3. **Mail a Check:**  
+        Address it to Periyar International USA  
+        5652 Chapel Hill Court, Gurnee, IL 60031  
+        *Please include your name and address for acknowledgment.*
 
-When sending a check, kindly include your name and address for notification.
