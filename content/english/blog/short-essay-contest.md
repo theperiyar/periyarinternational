@@ -29,6 +29,7 @@ The Periyar birth anniversary celebratory event encourages you to bring out the 
 
 - **Word Limit:** Essays should not exceed **500 words**.
 - **Topic Selection:** Participants must choose one of the provided topics.
+- **Topic Restriction:** Please note that if a participant selects a topic for the essay competition and is also participating in the speech contest, they must choose a different topic for the speech.
 - **Submission Deadline:** Submissions should be made through the link provided in the registration confirmation email by **Sunday, September 15, 2024**.
 
 

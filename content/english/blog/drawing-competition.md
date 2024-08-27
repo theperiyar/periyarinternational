@@ -28,5 +28,6 @@ As part of the Periyar birthday celebration, we invite you to showcase your arti
 
 - **Theme:** Create a drawing or cartoon that embodies Dravidian ideology, focusing on Science, Rationalism, and Humanism.
 - **Title:** Decorate your artwork with a Periyar quote. A list of Periyar quotes will be sent to your confirmation email.
+- **Originality Guidelines:** Participants are encouraged to create their own original drawings. Parents can offer guidance, but the artwork should be done by the child to ensure fairness.
 - **Submission Deadline:** Submissions should be made through the link provided in the registration confirmation email by **Sunday, September 15, 2024**.
 
