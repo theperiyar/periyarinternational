@@ -16,7 +16,7 @@ image_icon : queue_music
 form_name: "Registration Form"
 ---
 
-Participate in the celebration of Periyar's ideals by sharing your vocal talent. Singing a song isn't just about the melody; it's about expressing your thoughts, emotions, and messages through the power of music. Are you a natural born singer or someone learning music? Periyar 145 celebratory event encourages you to showcase your musical talent by singing songs relating to the theme of social justice, equality, humanism. Vocalize your empathy, caring and compassion musically. We can't wait to hear you sing!
+Participate in the celebration of Periyar's ideals by sharing your vocal talent. Singing a song isn't just about the melody; it's about expressing your thoughts, emotions, and messages through the power of music. Are you a natural born singer or someone learning music? Periyar 146 celebratory event encourages you to showcase your musical talent by singing songs relating to the theme of social justice, equality, humanism. Vocalize your empathy, caring and compassion musically. We can't wait to hear you sing!
 
 **General Rules:**
 

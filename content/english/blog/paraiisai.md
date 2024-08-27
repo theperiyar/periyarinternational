@@ -29,7 +29,7 @@ Unleash the power of traditional rhythms with our 'Parai Music' competition! Let
 **Specific Rules:**
 
 - **Instrument:** Participants must perform using the traditional **parai** drum. Other instruments are not permitted.
-- **Performance Duration:** Each performance should be between **3 to 5 minutes**. Ensure your act stays within this time frame.
+- **Performance Duration:** Each performance should be between **3 minutes**. Ensure your act stays within this time frame.
 - **Judging Criteria:** Performances will be judged on **rhythm, creativity, stage presence, and adherence to cultural authenticity**.
 
 
