@@ -1,5 +1,5 @@
 ---
-title: "John Doe"
+title: "Periyar International"
 image: ""
 email: "email2@example.org"
 social:

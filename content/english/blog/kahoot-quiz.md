@@ -1,7 +1,7 @@
 ---
 title: "Kahoot Quiz"
 date: 2018-09-12T12:52:36+06:00
-author: John Doe
+author: Periyar International
 image_webp: images/blog/Img_Kahoot.webp
 image: images/blog/Img_Kahoot.jpg
 description : "Challenge your knowledge of 'Periyar 1000' with an engaging Kahoot quiz!"

@@ -1,7 +1,7 @@
 ---
 title: "Parai Music"
 date: 2018-09-12T12:52:36+06:00
-author: John Doe
+author: Periyar International
 image_webp: images/blog/Img_Kahoot.webp
 image: images/blog/Img_Kahoot.jpg
 description : "Showcase your rhythm and skill in our 'Parai Music' to celebrate the vibrant heritage of Periyar!"
@@ -29,7 +29,7 @@ Unleash the power of traditional rhythms with our 'Parai Music' competition! Let
 **Specific Rules:**
 
 - **Instrument:** Participants must perform using the traditional **parai** drum. Other instruments are not permitted.
-- **Performance Duration:** Each performance should be between **3 minutes**. Ensure your act stays within this time frame.
+- **Performance Duration:** Performances must not exceed **3 minutes**. 
 - **Judging Criteria:** Performances will be judged on **rhythm, creativity, stage presence, and adherence to cultural authenticity**.
 
 

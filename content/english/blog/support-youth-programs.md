@@ -1,7 +1,7 @@
 ---
 title: "Kahoot - Periyar 1000"
 date: 2018-09-12T12:52:36+06:00
-author: John Doe
+author: Periyar International
 image_webp: images/blog/Img_DravidianIcons.webp
 image: images/blog/Img_DravidianIcons.jpg
 description : "Enact your leader"
