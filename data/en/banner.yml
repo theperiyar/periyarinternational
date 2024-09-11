@@ -5,7 +5,13 @@ banner:
   bg_image: "images/backgrounds/hero-area.jpg"
   icon: "ti-announcement" # Using an announcement icon
   title: "Celebrate Periyar's 146th Birthday"
-  content: "Join us in commemorating the life and legacy of Thanthai Periyar on his 146th birth anniversary. Register now for a series of enlightening events and discussions on social justice and humanist ideals."
+  content: >
+   Join us in commemorating the life and legacy of Thanthai Periyar on his 146th birth anniversary. 
+    <strong style="color: red;">Registration for Tamil Nadu live events is now closed.</strong> 
+    <strong style="color: #61dafb;">Registration remains open for submission events.</strong> 
+    <strong style="color: #61dafb;">Click [here](/blog/submission/) to submit the entries by September 15, 2024</strong>
+    Don't miss this opportunity to engage with Periyar's ideas on social justice and humanist ideals.
+  button:
   button:
     enable: true
     label: "Read more about Periyar 146 Events"
