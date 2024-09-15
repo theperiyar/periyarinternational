@@ -83,8 +83,8 @@
             <div id="formkeep-embed" data-formkeep-url="{{ .Params.form_url }}"></div>
     
             <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-            <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
-    
+            <script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
+
             <script>
             const formkeepEmbed = document.querySelector('#formkeep-embed')
             formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {    
@@ -96,6 +96,7 @@
             </script>
           </div>
         </div>
+       
         {{ end }}
 
         <!--<div class="mt-5">

@@ -8,8 +8,8 @@ description : "Let your creative juices flow from your pen to paper"
 is_event: true
 button_label : "Register Now"
 show_breadcrumb: true
-show_register_button: true
-show_form: true
+show_register_button: false
+show_form: false
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
 image_icon: create

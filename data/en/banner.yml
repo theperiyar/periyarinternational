@@ -6,11 +6,11 @@ banner:
   icon: "ti-announcement" # Using an announcement icon
   title: "Celebrate Periyar's 146th Birthday"
   content: >
-   Join us in commemorating the life and legacy of Thanthai Periyar on his 146th birth anniversary. 
-    <strong style="color: red;">Registration for Tamil Nadu live events is now closed.</strong> 
-    <strong style="color: #61dafb;">Registration remains open for submission events.</strong> 
-    <strong style="color: #61dafb;">Click [here](/blog/submission/) to submit the entries by September 15, 2024</strong>
-    Don't miss this opportunity to engage with Periyar's ideas on social justice and humanist ideals.
+   Join us in commemorating the life and legacy of Thanthai Periyar on his 146th birth anniversary.<br> 
+    <strong style="color: red;">Registration is closed for all events.</strong><br>
+    <strong style="color: #61dafb;">Details for the Run/Walk for Periyar can be submitted.</strong><br> 
+    <strong style="color: #61dafb;">The Tamil Nadu event is on September 21, 2024, at 6:00 p.m. IST.</strong><br>
+    <strong style="color: #61dafb;">The North America event is on September 22, 2024, at 10:00 a.m. EST.</strong>
   button:
   button:
     enable: true
