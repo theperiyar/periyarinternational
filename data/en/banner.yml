@@ -7,10 +7,9 @@ banner:
   title: "Celebrate Periyar's 146th Birthday"
   content: >
    Join us in commemorating the life and legacy of Thanthai Periyar on his 146th birth anniversary.<br> 
-    <strong style="color: red;">Registration is closed for all events.</strong><br>
-    <strong style="color: #61dafb;">Details for the Run/Walk for Periyar can be submitted.</strong><br> 
-    <strong style="color: #61dafb;">The Tamil Nadu event is on September 21, 2024, at 6:00 p.m. IST.</strong><br>
-    <strong style="color: #61dafb;">The North America event is on September 22, 2024, at 10:00 a.m. EST.</strong>
+    <strong style="color: #61dafb;">Details for the Run/Walk for Periyar can be submitted [here](/blog/run-for-periyar/).</strong><br> 
+    <strong style="color: #61dafb;">The Tamil Nadu event [Zoom info](images/TamilNadu.jpeg)</strong><br>
+    <strong style="color: #61dafb;">The North America event [Zoom info](images/NorthAmerica.jpeg)</strong>
   button:
   button:
     enable: true
