@@ -8,11 +8,11 @@ description : "Upload your files for essay/drawing"
 button_label : "Submit Files"
 is_event: false
 show_breadcrumb: false
-show_register_button: true
-show_form: true
+show_register_button: false
+show_form: false
 form_url: "https://formkeep.com/p/cc5a96d187c5377fc07ec601937c745b?embedded=1"
 show_related_events: false
 form_name: "Submission Form"
 ---
 
-Welcome back! We hope the journey of participating in Periyar's 146th birthday event has been thrilling! Kindly submit your essay or drawing in PDF or JPEG format, with a file size not exceeding 2MB. Thank you!
+Welcome back! We hope the journey of participating in Periyar's 146th birthday event has been thrilling! We freezed the submission. We will meet you in the event. Thank you!
