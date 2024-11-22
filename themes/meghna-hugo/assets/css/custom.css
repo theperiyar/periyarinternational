@@ -26,3 +26,52 @@
   font-size: 16px;
   font-weight: 300;
 }
+
+.ai-announcement {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(34, 40, 53, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.ai-preview-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.ai-preview-link:hover {
+  transform: translateY(-5px);
+}
+
+.ai-preview {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.ai-preview-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(87, 203, 204, 0.2);
+}
+
+.ai-description {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .ai-announcement {
+    padding: 1rem;
+  }
+  
+  .ai-description {
+    font-size: 1rem;
+  }
+}

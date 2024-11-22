@@ -3,15 +3,20 @@ banner:
   enable: true
   bg_image_webp: "images/backgrounds/hero-area.webp"
   bg_image: "images/backgrounds/hero-area.jpg"
-  icon: "ti-announcement" # Using an announcement icon
-  title: "Celebrate Periyar's legacy"
-  content: >
-    We are Excited to Introduce [askperiyar.ai](https://askperiyar.ai)!<br> 
-    <strong style="color: #61dafb;">Details for the Run/Walk for Periyar can be submitted [here](/blog/run-for-periyar/).</strong><br> 
-    <strong style="color: #61dafb;">The Tamil Nadu event [Zoom info](images/TamilNadu.jpeg)</strong><br>
-    <strong style="color: #61dafb;">The North America event [Zoom info](images/NorthAmerica.jpeg)</strong>
-  button:
+  icon: "ti-robot" # Changed to a robot/AI related icon
+  title: "Chat with Periyar's Wisdom"
+  content: |
+    <div class="ai-announcement">
+      <a href="https://askperiyar.ai" target="_blank" class="ai-preview-link">
+        <div class="ai-preview">
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjMjIyODM1Ii8+CiAgICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxMjAiIHI9IjYwIiBmaWxsPSIjNTdjYmNjIi8+CiAgICA8cmVjdCB4PSIxMjAiIHk9IjE5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZmZmIi8+CiAgICA8dGV4dCB4PSIyMDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5hc2twZXJpeWFyLmFpPC90ZXh0Pgo8L3N2Zz4=" alt="Ask Periyar AI" class="ai-preview-image">
+        </div>
+        <div class="ai-description">
+          Click to experience interactive conversations with Periyar's revolutionary thoughts
+        </div>
+      </a>
+    </div>
   button:
     enable: true
-    label: "Read more about Periyar 146 Events"
-    link: "#services"
+    label: "Try askperiyar.ai"
+    link: "https://askperiyar.ai"    
