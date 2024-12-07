@@ -28,6 +28,7 @@ You can support Periyar's mission by making a donation. Contributions can be mad
    - **Routing #:** 071000013 <br>
 <br>
 2. **PayPal:** [Donate here](https://www.paypal.com/us/fundraiser/charity/3378979)
+3. **Zelle Id for PI USA:** secretary@periyarinternational.org
 
 3. **Mail a Check:**  
         Address it to Periyar International USA  
