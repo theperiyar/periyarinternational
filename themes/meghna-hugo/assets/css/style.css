@@ -8,14 +8,20 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #282c34; /* Dark slate gray */;
-  color: #61dafb; /* Light sky blue */
+  background-color: #282c34;
+  /* Dark slate gray */
+  ;
+  color: #61dafb;
+  /* Light sky blue */
 }
 
 body {
-  background-color: #282c34; /* Dark slate gray */;
+  background-color: #282c34;
+  /* Dark slate gray */
+  ;
   font-family: "Anaheim", sans-serif;
-  color: #61dafb; /* Light sky blue */
+  color: #61dafb;
+  /* Light sky blue */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -163,7 +169,9 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #282c34; /* Dark slate gray */;
+  background-color: #282c34;
+  /* Dark slate gray */
+  ;
 }
 
 .bg-dark {
@@ -386,7 +394,8 @@ a:hover {
 
 .logo-text {
   font-weight: bold;
-  color: #000000; /* Replace with your desired color */
+  color: #000000;
+  /* Replace with your desired color */
   font-size: 1.2em;
 }
 
@@ -445,8 +454,9 @@ a:hover {
   height: 100vh;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding: 0 50px;
 }
 
 .hero-area:before {
@@ -871,7 +881,8 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #61dafb; /* Light sky blue */
+  color: #61dafb;
+  /* Light sky blue */
   transition: .3s all;
 }
 
@@ -1502,7 +1513,8 @@ a:hover {
 }
 
 .post-time {
-  color: #61dafb; /* Light sky blue */
+  color: #61dafb;
+  /* Light sky blue */
 }
 
 input#e-mail,
@@ -2276,7 +2288,9 @@ figcaption {
 }
 
 #select-language {
-  background: #282c34; /* Dark slate gray */;
+  background: #282c34;
+  /* Dark slate gray */
+  ;
   color: #ffffff;
   border: 0;
 }
@@ -2330,7 +2344,7 @@ figcaption {
 
 .main-nav {
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-nav .nav-item {
@@ -2354,19 +2368,19 @@ figcaption {
   background-color: #57cbcc !important;
   color: #fff !important;
   transform: translateY(-3px);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-nav .nav-link:active {
   transform: translateY(-1px);
-  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 991px) {
   .navbar-nav .nav-item {
     margin: 5px 0;
   }
-  
+
   .navbar-nav .nav-link {
     display: inline-block;
   }
@@ -2379,7 +2393,7 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
   content: "/";
   padding: 0 0.5rem;
 }

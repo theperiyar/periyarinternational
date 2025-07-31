@@ -1,22 +1,30 @@
 ############################### Banner ################################
+# banner:
+#   enable: false
+#   bg_image_webp: "images/backgrounds/hero-area.webp"
+#   bg_image: "images/backgrounds/hero-area.jpg"
+#   icon: "ti-robot" # Changed to a robot/AI related icon
+#   title: "Chat with Periyar's Wisdom periyar"
+#   content:
+#     <div class="ai-announcement">
+#       <a href="https://askperiyar.ai" target="_blank" class="ai-preview-link">
+#         <div class="ai-preview">
+#           <!--<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjMjIyODM1Ii8+CiAgICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxMjAiIHI9IjYwIiBmaWxsPSIjNTdjYmNjIi8+CiAgICA8cmVjdCB4PSIxMjAiIHk9IjE5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZmZmIi8+CiAgICA8dGV4dCB4PSIyMDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5hc2twZXJpeWFyLmFpPC90ZXh0Pgo8L3N2Zz4=" alt="Ask Periyar AI" class="ai-preview-image">-->
+#         </div>
+#         <!--<div class="ai-description">
+#           Click to experience interactive conversations with Periyar's revolutionary thoughts
+#         </div>-->
+#       </a>
+#     </div>
+#   button:
+#     enable: false
+#     label: "Try askperiyar.ai"
+#     link: "https://askperiyar.ai"
 banner:
   enable: true
   bg_image_webp: "images/backgrounds/hero-area.webp"
   bg_image: "images/backgrounds/hero-area.jpg"
-  icon: "ti-robot" # Changed to a robot/AI related icon
-  title: "Chat with Periyar's Wisdom"
-  content: |
-    <div class="ai-announcement">
-      <a href="https://askperiyar.ai" target="_blank" class="ai-preview-link">
-        <div class="ai-preview">
-          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSIjMjIyODM1Ii8+CiAgICA8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxMjAiIHI9IjYwIiBmaWxsPSIjNTdjYmNjIi8+CiAgICA8cmVjdCB4PSIxMjAiIHk9IjE5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI0MCIgcng9IjIwIiBmaWxsPSIjZmZmIi8+CiAgICA8dGV4dCB4PSIyMDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjI0IiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5hc2twZXJpeWFyLmFpPC90ZXh0Pgo8L3N2Zz4=" alt="Ask Periyar AI" class="ai-preview-image">
-        </div>
-        <div class="ai-description">
-          Click to experience interactive conversations with Periyar's revolutionary thoughts
-        </div>
-      </a>
-    </div>
-  button:
-    enable: true
-    label: "Try askperiyar.ai"
-    link: "https://askperiyar.ai"    
+  heading: "Periyar’s Wisdom"
+  subheading: "Join us today and get started!"
+  button_text: "Get Started"
+  button_link: "#get-started"

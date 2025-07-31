@@ -3,7 +3,8 @@
 
 .event-header {
   font-family: 'Roboto', sans-serif;
-  background-color: #52b7fa; /* Change this for each event */
+  background-color: #52b7fa;
+  /* Change this for each event */
   color: white;
   padding: 20px;
   text-align: center;
@@ -70,8 +71,30 @@
   .ai-announcement {
     padding: 1rem;
   }
-  
+
   .ai-description {
     font-size: 1rem;
   }
+}
+
+.banner-text {
+  background-color: rgba(240, 7, 7, 0.607);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: right;
+  color: white;
+  display: block;
+  z-index: 10
+}
+
+.action-btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e6d8d8;
+  color: rgb(12, 12, 12);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
