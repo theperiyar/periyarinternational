@@ -76,4 +76,8 @@ jobs:
           git config user.email "github-actions@github.com"
           git add .
           git commit -m "Deploy Hugo site"
-          git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git branch -M gh-pages
+          git push --force --quiet "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
+
+
