@@ -48,10 +48,10 @@ jobs:
       - name: Install npm dependencies
         run: npm install
 
-      - name: Build site
-        run: npm run build
+      - name: Build Hugo site using hugo.toml
+        run: hugo --config hugo.toml --minify
 
-      - name: Upload artifact
+      - name: Upload site artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
@@ -62,7 +62,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifact
+      - name: Download site artifact
         uses: actions/download-artifact@v4
         with:
           name: github-pages
