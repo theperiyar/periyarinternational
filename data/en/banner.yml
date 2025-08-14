@@ -24,7 +24,7 @@ banner:
   enable: true
   bg_image_webp: "images/backgrounds/hero-area.webp"
   bg_image: "images/backgrounds/hero-area.jpg"
-  heading: "Periyar’s Wisdom"
-  subheading: "Join us today and get started!"
-  button_text: "Get Started"
-  button_link: "#get-started"
+  heading: "Periyar 147 – Celebrate the Legacy"
+  subheading: "Register now to participate in speeches, singing, essays, and drawings honoring Periyar’s vision. Event on Sept 20 (India) / Sept 21 (USA)."
+  button_text: "Register for Periyar 147"
+  button_link: "https://form.jotform.com/252162476032047"
