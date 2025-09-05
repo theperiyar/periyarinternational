@@ -21,7 +21,6 @@ Join us for an exciting Kahoot quiz, that will challenge your knowledge of the b
 
 **General Rules:**
 
-- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
 - **Language:** The quiz will be conducted in English.
 - **Eligibility:** The quiz is open to all; participants can join using their smartphones, tablets, or computers.
 - **Recognition:** The top scorers will receive special recognition and prizes.
