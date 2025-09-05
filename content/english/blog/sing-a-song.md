@@ -20,14 +20,12 @@ Participate in the celebration of Periyar's ideals by sharing your vocal talent.
 
 **General Rules:**
 
-- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
 - **Eligibility:** Open to all; participants must adhere to the time limit.
 - **Recognition:** The top performers will receive special recognition and prizes.
 
 **Specific Rules:**
 
 - **Song Duration:** Performances must not exceed **3 minutes**.
-- **Song Selection:** Choose one song from the provided list and email your choice to **events@periyarinternational.org** by **Sunday, September 15, 2024**.
 - **Performance:** Participants will be judged based on vocal ability, adherence to time limits, and song choice.
 
 | S.No | Songs |
