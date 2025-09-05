@@ -20,7 +20,6 @@ The Periyar birth anniversary celebratory event encourages you to bring out the 
 
 **General Rules:**
 
-- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
 - **Language:** Essays can be written in either **Tamil** or **English**.
 - **Eligibility:** Open to all; participants must adhere to the word limit.
 - **Recognition:** Special prize essays will be featured in the **Periyar Pinju** magazine.
@@ -30,8 +29,6 @@ The Periyar birth anniversary celebratory event encourages you to bring out the 
 - **Word Limit:** Essays should not exceed **500 words**.
 - **Topic Selection:** Participants must choose one of the provided topics.
 - **Topic Restriction:** Please note that if a participant selects a topic for the essay competition and is also participating in the speech contest, they must choose a different topic for the speech.
-- **Submission Deadline:** Submissions should be made through the link provided in the registration confirmation email by **Sunday, September 15, 2024**.
-
 
 ### Essay Topics in English:
 
