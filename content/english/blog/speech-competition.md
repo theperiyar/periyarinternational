@@ -24,7 +24,6 @@ As we are getting ready to celebrate the life and legacy of Periyar Ayya, we thi
 
 **General Rules:**
 
-- **Registration Deadline:** End of day on **Sunday, September 15, 2024**.
 - **Language:** Speeches can be delivered in either **Tamil** or **English**.
 - **Eligibility:** Open to all; participants must adhere to the time limit.
 - **Recognition:** The top performers will receive special recognition and prizes.
@@ -33,7 +32,6 @@ As we are getting ready to celebrate the life and legacy of Periyar Ayya, we thi
 
 - **Speech Time Limit:** Speeches must not exceed **3 minutes**.
 - **Intro with Periyar Quote:** Participants are encouraged to start their speech with a Periyar quote after introducing themselves. A list of quotes will be sent to your confirmation email.
-- **Topic Selection:** Participants must choose one of the below listed topics for their speech. 
 - **Topic Restriction:** Please note that if a participant selects a topic for the speech event and is also participating in the essay competition, they must choose a different topic for the essay.
 - **Personal Perspective**: Feel free to share your thoughts, stories, or personal experiences related to your chosen topic.
 
