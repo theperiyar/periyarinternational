@@ -4,10 +4,33 @@
 
 	{{ "<!-- mobile responsive meta -->" | safeHTML }}
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+	{{ $description := "" }}
+	{{ with .Description }}{{ $description = . }}{{ else }}{{ with site.Params.description }}{{ $description = . }}{{ end }}{{ end }}
+	<meta name="description" content="{{ $description }}">
 	{{ with site.Params.author }}
 	<meta name="author" content="{{ . }}">{{ end }}
-	
+
+	{{ "<!-- Open Graph / Facebook -->" | safeHTML }}
+	{{ $ogTitle := .Title }}
+	{{ $ogImage := "" }}
+	{{ with .Params.image }}{{ $ogImage = . | absURL }}{{ else }}{{ with site.Params.images }}{{ $ogImage = (index . 0) | absURL }}{{ end }}{{ end }}
+	<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:title" content="{{ $ogTitle }}">
+	<meta property="og:description" content="{{ $description }}">
+	<meta property="og:site_name" content="{{ site.Title }}">
+	{{ with site.Language.LanguageCode }}<meta property="og:locale" content="{{ replace . "-" "_" }}">{{ end }}
+	{{ with $ogImage }}
+	<meta property="og:image" content="{{ . }}">
+	<meta property="og:image:alt" content="{{ $ogTitle }}">
+	{{ end }}
+
+	{{ "<!-- Twitter Card -->" | safeHTML }}
+	<meta name="twitter:card" content="{{ if $ogImage }}summary_large_image{{ else }}summary{{ end }}">
+	<meta name="twitter:title" content="{{ $ogTitle }}">
+	<meta name="twitter:description" content="{{ $description }}">
+	{{ with $ogImage }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+
 	<!-- theme meta -->
         <meta name="theme-name" content="meghna-hugo" />
 	{{ hugo.Generator }}

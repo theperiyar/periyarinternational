@@ -127,8 +127,10 @@ weight = 4
 [params]
 #logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+description = "Periyar International promotes the humanistic ideals of Periyar E.V. Ramasamy - self-respect, social justice, and rational thinking - through chapters, events, and programs worldwide."
+author = "Periyar International"
+# default image used for social/link previews (Open Graph / Twitter) when a page doesn't set its own `image`
+images = ["images/backgrounds/hero-area.jpg"]
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
