@@ -1,6 +1,6 @@
 ---
 title: "Rational Inquiry Session: Ask the Chief Guest"
-date: 2026-07-31T12:00:00+06:00
+date: 2026-07-30T18:00:00+06:00
 author: Periyar International
 image_webp: images/blog/Img_AskChiefGuest.webp
 image: images/blog/Img_AskChiefGuest.jpg
