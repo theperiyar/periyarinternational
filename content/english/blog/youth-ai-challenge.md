@@ -1,5 +1,5 @@
 ---
-title: "Periyar 148 Youth AI Challenge"
+title: "Youth AI Challenge"
 date: 2026-07-30T12:00:00+06:00
 author: Periyar International
 image_webp: images/blog/Img_AIChallenge.webp
