@@ -29,7 +29,7 @@
     {{ end }}
     
      {{ if .Params.Image }}
-       <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'" alt="{{ .Params.title }}">
+       <img class="event-banner-img lozad" data-src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'" alt="{{ .Params.title }}">
        <div class="event-header" style="background-color: #3c80e7;" >
         <i class="material-icons event-icon">{{.Params.image_icon}}</i>
         <h2 class="event-title">{{.Params.title}}</h2>
@@ -58,7 +58,8 @@
           {{ $relatedEvents := where $relatedEvents "Permalink" "!=" $currentPage.Permalink }}
           {{ $relatedEvents := $relatedEvents | intersect .Site.RegularPages.ByTitle }}
           {{ $relatedEvents := $relatedEvents | union (.Site.RegularPages.Related . ) }}
-          {{ $relatedEvents := where $relatedEvents "Params.title" "!=" "Donate Now" }}
+          {{ $hiddenEventTitles := slice "Donate Now" "Essay Writing" "Kahoot Quiz" "Parai Music" "Speech Contest" }}
+          {{ $relatedEvents := where $relatedEvents "Params.title" "not in" $hiddenEventTitles }}
           {{ $relatedEvents := $relatedEvents | first 10 }}
           {{ with $relatedEvents }}
           <ul>
