@@ -41,7 +41,11 @@
       <div class="col-lg-8 offset-lg-2">
         {{ if .Params.show_register_button }}
         <div class="text-center mb-4" style="margin-top: 20px;">
+          {{ if .Params.button_link }}
+          <a href="{{ .Params.button_link }}" class="btn btn-primary" target="_blank" rel="noopener">{{.Params.button_label}}</a>
+          {{ else }}
           <button class="btn btn-primary" onclick="scrollToRegistration()">{{.Params.button_label}}</button>
+          {{ end }}
         </div>
         {{ end }}
 
