@@ -29,7 +29,7 @@
     {{ end }}
     
      {{ if .Params.Image }}
-       <!-- <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">-->
+       <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'" alt="{{ .Params.title }}">
        <div class="event-header" style="background-color: #3c80e7;" >
         <i class="material-icons event-icon">{{.Params.image_icon}}</i>
         <h2 class="event-title">{{.Params.title}}</h2>

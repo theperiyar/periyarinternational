@@ -37,3 +37,13 @@ service:
     - name : "Run For Periyar"
       icon : ti-direction-alt # themify icon pack : https://themify.me/themify-icons
       content : "Virtual run/walk event to honor Periyar's legacy. [Learn More](/blog/run-for-periyar/)"
+
+    # event item loop
+    - name : "Youth AI Challenge"
+      icon : ti-desktop # themify icon pack : https://themify.me/themify-icons
+      content : "Explore AI through creativity, critical thinking, and real world problem solving. [Learn More](/blog/youth-ai-challenge/)"
+
+    # event item loop
+    - name : "Ask the Chief Guest"
+      icon : ti-comments # themify icon pack : https://themify.me/themify-icons
+      content : "Submit thoughtful, rational questions for our Chief Guest. [Learn More](/blog/ask-the-chief-guest/)"
