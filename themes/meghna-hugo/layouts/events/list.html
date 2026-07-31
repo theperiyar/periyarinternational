@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+{{"<!-- Start Events Section -->" | safeHTML}}
+<section id="events" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{ if .Params.show_breadcrumb }}
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent p-0">
+            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+          </ol>
+        </nav>
+        {{ end }}
+        {{"<!-- section title -->" | safeHTML}}
+        <div class="title text-center wow fadeInDown">
+          <h2>Our <span class="color">Events</span></h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+      {{ $events := where site.RegularPages "Params.is_event" true }}
+      {{ $events := where $events "Params.title" "!=" "Donate Now" }}
+      {{ $events := $events.ByDate.Reverse }}
+      {{ range $events }}
+      {{ .Render "article" }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{"<!-- /events -->" | safeHTML}}
+
+{{ end }}
