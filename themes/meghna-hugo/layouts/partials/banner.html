@@ -8,6 +8,7 @@
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}"
 		onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" />
 	<div class="banner-text">
+		<span class="banner-eyebrow">Upcoming Event</span>
 		{{ if .heading }}<h2>{{ .heading }}</h2>{{ end }}
 		{{ if .subheading }}<p>{{ .subheading }}</p>{{ end }}
 		{{ if .button_text }}

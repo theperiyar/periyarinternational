@@ -1,15 +1,4 @@
 <header class="site-header">
-	<div class="top-bar">
-	  <div class="social-icons">
-		{{ range site.Params.social }}
-		  <a href="{{ .link | relLangURL }}"><i class="{{ .icon }}"></i></a>
-		{{ end }}
-	  </div>
-	  <div class="contact-info">
-		<span><i class="far fa-envelope"></i> info@periyarinternational.org</span>
-		<span><i class="fas fa-map-marker-alt"></i> USA</span>
-	  </div>
-	</div>
 	<nav class="main-nav">
 	  <div class="container">
 		<div class="logo-text">
@@ -24,6 +13,9 @@
 		  {{ range site.Menus.main }}
 			<li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
 		  {{ end }}
+		  <li class="nav-contact">
+			<a href="mailto:info@periyarinternational.org" aria-label="Email Periyar International"><i class="ti-email"></i></a>
+		  </li>
 		</ul>
 	  </div>
 	</nav>
@@ -36,81 +28,104 @@
 
   <style>
 
-	  
 	  .site-header {
-		font-family: Arial, sans-serif;
+		font-family: 'Quattrocento Sans', Arial, sans-serif;
 		position: sticky;
 		top: 0;
 		z-index: 1000;
-		background-color: white;
+		background-color: #fff;
 	  }
-	  
-	  .top-bar {
-		background-color: #374541;
-		color: white;
-		display: flex;
-		justify-content: space-between;
-		padding: 5px 20px;
-	  }
-	  
-	  .social-icons a {
-		color: white;
-		margin-right: 10px;
-	  }
-	  
+
 	  .main-nav {
-		background-color: white;
-		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		background-color: #fff;
+		box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 	  }
-	  
+
 	  .container {
+		max-width: 1320px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 10px 20px;
+		padding: 16px 40px;
 	  }
-	  
-	  .logo img {
+
+	  .logo-text {
+		font-size: 22px;
+		font-weight: 700;
+		letter-spacing: .2px;
+		color: #1f2933;
+	  }
+
+	  .logo-text img {
 		height: 40px;
 	  }
-	  
+
 	  .nav-links {
 		display: flex;
+		align-items: center;
 		list-style-type: none;
-		margin: 0;
+		margin: 0 0 0 auto;
 		padding: 0;
 	  }
-	  
+
 	  .nav-links li {
-		margin: 0 10px;
+		margin: 0 4px;
 	  }
-	  
+
 	  .nav-links a {
+		display: inline-block;
 		text-decoration: none;
-		color: #333;
-		font-weight: bold;
-		padding: 10px 15px;
+		color: #1f2933;
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: .2px;
+		padding: 10px 18px;
 		border-radius: 25px;
 		transition: all 0.3s ease;
 	  }
-	  
+
 	  .nav-links a:hover {
 		background-color: #00bf7d;
 		color: white;
 		transform: translateY(-3px);
 		box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 	  }
-	  
+
+	  .nav-contact {
+		margin-left: 14px !important;
+		padding-left: 14px;
+		border-left: 1px solid #e5e7eb;
+	  }
+
+	  .nav-contact a {
+		padding: 10px 12px;
+		font-size: 16px;
+		color: #57696f;
+	  }
+
+	  .nav-contact a:hover {
+		background-color: #00bf7d;
+		color: white;
+	  }
+
 	  @media (max-width: 768px) {
 		.container {
 		  flex-direction: column;
+		  padding: 16px 20px;
 		}
 		.nav-links {
-		  margin-top: 20px;
+		  margin: 16px 0 0;
+		  flex-wrap: wrap;
+		  justify-content: center;
 		}
 		.nav-links li {
-		  margin: 10px 0;
+		  margin: 6px 8px;
+		}
+		.nav-contact {
+		  margin: 10px 0 0 !important;
+		  padding-left: 0;
+		  border-left: none;
 		}
 	  }
   </style>
