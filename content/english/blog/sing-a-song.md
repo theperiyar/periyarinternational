@@ -23,7 +23,7 @@ This year, Periyar International is trying something new! Instead of our usual a
 **Event Details:**
 
 - 📅 **Date:** Sessions run for ~1 month, culminating in a group performance at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
-- 📍 **Where:** Online via Zoom (1–2 sessions per week).
+- 📍 **Where:** Online via Zoom.
 - 👥 **Who can participate:** Children of all ages who'd like to sing.
 - 📝 **How to join:** Register using the button below.
 

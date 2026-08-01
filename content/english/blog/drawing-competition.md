@@ -21,7 +21,7 @@ As part of the **Periyar 148** birthday celebration, we invite you to showcase y
 **Event Details:**
 
 - 📅 **Date:** Submissions open now; winning entries celebrated at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
-- 📍 **Where:** Submit your artwork online during registration.
+- 📍 **Where:** Submit your artwork in the submission portal (You will receive a link for submission portal after registration).
 - 👥 **Who can participate:** Open to all ages.
 - 📝 **How to join:** Register using the button below.
 
