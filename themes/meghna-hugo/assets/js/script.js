@@ -17,6 +17,25 @@ jQuery(function ($) {
 	observer.observe();
 
 	/* ========================================================================= */
+	/*	Event Banner Countdown
+	/* ========================================================================= */
+
+	var $banner = $('#event-banner');
+	if ($banner.length && $banner.data('countdown') === true) {
+		var eventDate = new Date($banner.attr('data-event-date'));
+		var eyebrowFallback = $banner.attr('data-eyebrow-text');
+		var $eyebrowText = $('#banner-eyebrow-text');
+		var nowTime = new Date();
+		var diffDays = Math.ceil((eventDate - nowTime) / 86400000);
+		var label;
+		if (diffDays > 1) { label = diffDays + ' Days To Go'; }
+		else if (diffDays === 1) { label = '1 Day To Go'; }
+		else if (diffDays === 0) { label = 'Happening Today'; }
+		else { label = eyebrowFallback; }
+		$eyebrowText.text(label);
+	}
+
+	/* ========================================================================= */
 	/*	Magnific popup
 	/* =========================================================================  */
 	$('.image-popup').magnificPopup({

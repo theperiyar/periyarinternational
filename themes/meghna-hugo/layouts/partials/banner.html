@@ -1,14 +1,28 @@
 {{ $data := index site.Data site.Language.Lang }}
+{{ $b := $data.banner.banner }}
 
-{{ if $data.banner.banner.enable }}
-{{ with $data.banner.banner }}
+{{ $showAtBuild := true }}
+{{ if $b.end_date }}
+  {{ $end := time.AsTime $b.end_date }}
+  {{ if and $end (now.After $end) }}{{ $showAtBuild = false }}{{ end }}
+{{ end }}
+
+{{ if and $b.enable $showAtBuild }}
+{{ with $b }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+{{/* JS is authoritative for start/end scheduling since the site has no scheduled rebuilds; this build-time check only guards against a very stale build serving a long-dead banner. */}}
+<section id="event-banner" class="hero-area"
+	data-start="{{ .start_date }}"
+	data-end="{{ .end_date }}"
+	data-countdown="{{ .show_countdown }}"
+	data-event-date="{{ .event_date }}"
+	data-eyebrow-text="{{ .eyebrow_text | default "Upcoming Event" }}"
+	style='background-image: url("{{ .bg_image_webp | absURL }}")'>
 	<!-- this image is for trigger this section fallback background image -->
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}"
 		onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" />
 	<div class="banner-text">
-		<span class="banner-eyebrow">Upcoming Event</span>
+		<span class="banner-eyebrow"><span id="banner-eyebrow-text">{{ partial "banner-eyebrow-text.html" . }}</span></span>
 		{{ if .heading }}<h2>{{ .heading }}</h2>{{ end }}
 		{{ if .subheading }}<p>{{ .subheading }}</p>{{ end }}
 		{{ if .button_text }}
@@ -20,5 +34,14 @@
 
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}}
+<script>(function(){
+  var el = document.getElementById('event-banner');
+  if (!el) return;
+  var start = el.getAttribute('data-start');
+  var end = el.getAttribute('data-end');
+  var now = new Date();
+  if (start && now < new Date(start)) { el.classList.add('hero-area--hidden'); return; }
+  if (end && now >= new Date(end)) { el.classList.add('hero-area--hidden'); }
+})();</script>
 {{end}}
 {{end}}

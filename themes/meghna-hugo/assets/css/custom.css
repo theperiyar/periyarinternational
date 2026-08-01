@@ -102,6 +102,10 @@ body {
   padding-top: 72px;
 }
 
+.hero-area--hidden {
+  display: none !important;
+}
+
 .banner-text {
   background: linear-gradient(135deg, #b3151b 0%, #7a0f13 100%);
   padding: 44px 42px;

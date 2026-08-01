@@ -1,0 +1,10 @@
+{{ $fallback := .eyebrow_text | default "Upcoming Event" }}
+{{ $ev := "" }}
+{{ if and .show_countdown .event_date }}{{ $ev = time.AsTime .event_date }}{{ end }}
+{{ if $ev }}
+  {{ $days := div (sub $ev.Unix now.Unix) 86400 }}
+  {{ if gt $days 1 }}{{ $days }} Days To Go
+  {{ else if eq $days 1 }}1 Day To Go
+  {{ else if eq $days 0 }}Happening Today
+  {{ else }}{{ $fallback }}{{ end }}
+{{ else }}{{ $fallback }}{{ end }}
