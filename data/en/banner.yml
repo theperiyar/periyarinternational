@@ -1,14 +1,13 @@
-############################### Banner ################################
 banner:
   enable: true
-  bg_image_webp: "images/backgrounds/hero-area.webp"
-  bg_image: "images/backgrounds/hero-area.jpg"
-  heading: "Periyar 148 Birthday Event Registration"
-  subheading: "Please complete one form per participant. Event date/time: September 19, 2026, 10:00 AM EST."
-  button_text: "Register Now"
-  button_link: "https://form.jotform.com/262107497170053"
-  eyebrow_text: "Upcoming Event"
-  start_date: ""
-  end_date: "2026-09-20T06:00:00-04:00"
+  heading: Periyar 148 Birthday Event Registration
+  subheading: 'Please complete one form per participant. Event date/time: September 19, 2026, 10:00 AM EST.'
+  eyebrow_text: Upcoming Event
+  button_text: Register Now
+  button_link: https://form.jotform.com/262107497170053
+  bg_image: images/backgrounds/hero-area.jpg
+  bg_image_webp: images/backgrounds/hero-area.webp
+  start_date: 08/02/2026 03:44 PM
+  end_date: 2026-09-20T06:00:00-04:00
   show_countdown: true
-  event_date: "2026-09-19T10:00:00-04:00"
+  event_date: 2026-09-19T10:00:00-04:00
