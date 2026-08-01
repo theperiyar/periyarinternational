@@ -21,13 +21,14 @@ form_name: "Registration Form"
 
 Every great movement started with a question. What's yours? *Think freely. Question fearlessly. Win proudly… Junior Social Justice Warriors.*
 
-Periyar believed that progress begins with questioning. In that spirit, **Periyar 148** invites participants to submit thoughtful, rational, and thought provoking questions for our Chief Guest during a special interactive session: **"Ask the Speaker, Spark the Change."**
+Periyar believed that progress begins with questioning. In that spirit, **Periyar 148** invites participants to submit thoughtful, rational, and thought provoking questions for our Chief Guest during a special interactive session: **"Ask the Speaker, Spark the Change."** This is an opportunity for students, young professionals, and community members to engage in meaningful dialogue on topics that matter, including social justice, equality, rationalism, scientific thinking, education, democracy, human rights, gender equality, caste discrimination, freedom of expression, and other contemporary social issues.
 
-Your questions will be submitted when you sign up for the event. We're hosting a guest speaker session on Social Justice and Periyar's Dravidian ideologies/thinking. Prepare your most thoughtful, curious, or bold question — the one that shows the deepest thinking or sparks the most powerful discussion wins an exciting prize! 🏆
+**Event Details:**
 
-This is an opportunity for students, young professionals, and community members to engage in meaningful dialogue on topics that matter, including social justice, equality, rationalism, scientific thinking, education, democracy, human rights, gender equality, caste discrimination, freedom of expression, and other contemporary social issues.
-
-**Who can participate?** Kids aged 8–15 — thinkers, question-askers, and future changemakers welcome!
+- 📅 **Date:** Saturday, September 19, 2026, as part of the Periyar 148 Birthday Celebration
+- 📍 **Where:** Online (Zoom)
+- 👥 **Who can participate:** Kids aged 8–15 — thinkers, question-askers, and future changemakers welcome!
+- 📝 **How to join:** Submit your question during registration using the button below.
 
 **Why participate?**
 
@@ -36,11 +37,12 @@ This is an opportunity for students, young professionals, and community members 
 - Win prizes for creativity and curiosity
 - Be part of a meaningful conversation on Social Justice & an Equitable society
 
-**Event Details:**
+**General Rules:**
 
-- 📅 **Date:** Saturday, September 19, 2026
-- 📍 **Venue:** Online (Zoom)
-- 📝 **How to join:** Register using the button below
+- **Format:** Submit your question when you register; a review panel evaluates all submissions and selects the most compelling ones.
+- **Recognition:** Selected participants ask their question live to the Chief Guest; the most thought provoking question wins an exciting prize. 🏆
+
+**Specific Rules:**
 
 Participants are encouraged to submit original questions that are:
 
@@ -49,10 +51,6 @@ Participants are encouraged to submit original questions that are:
 - Based on reason, evidence, and critical thinking
 - Designed to encourage meaningful discussion and new perspectives
 
-A review panel will evaluate all submissions and select the most compelling questions. The selected participants will be invited to ask their questions directly to the Chief Guest during the live event.
-
 This session is not a debate or a quiz. It is an opportunity to practice the spirit of rational inquiry, challenge assumptions, and engage in informed conversations, values that Periyar championed throughout his life.
-
-Whether your question challenges conventional thinking, explores solutions to social issues, or seeks deeper understanding, we encourage you to participate and contribute to an engaging and inspiring discussion.
 
 **Submit your question during registration and be part of a conversation that celebrates curiosity, reason, and social progress.**

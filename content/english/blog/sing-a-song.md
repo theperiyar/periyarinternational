@@ -18,17 +18,25 @@ form_name: "Registration Form"
 
 📢 **Special Announcement: Children's Singing Workshop**
 
-This year, Periyar International is trying something new! Instead of our usual annual singing competition, we are excited to host an interactive **Singing Workshop for Children** to celebrate Thanthai Periyar's 148th birthday.
+This year, Periyar International is trying something new! Instead of our usual annual singing competition, we are excited to host an interactive **Singing Workshop for Children** to celebrate Thanthai Periyar's 148th birthday. We are partnering with an experienced music teacher from Tamil Nadu who will mentor the participants, and children will learn and perform **3 to 4 songs together as a choir**.
 
-We are partnering with an experienced music teacher from Tamil Nadu who will mentor the participants. Over the course of one month (meeting 1–2 times per week via Zoom), children will learn and perform **3 to 4 songs together as a choir**, culminating in a group performance during our Periyar 148 Birthday Celebration event around mid Sept' 2026.
+**Event Details:**
 
-**Workshop Details & Themes:**
+- 📅 **Date:** Sessions run for ~1 month, culminating in a group performance at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
+- 📍 **Where:** Online via Zoom (1–2 sessions per week).
+- 👥 **Who can participate:** Children of all ages who'd like to sing.
+- 📝 **How to join:** Register using the button below.
+
+**General Rules:**
+
+- **Format:** Mentored group rehearsals via Zoom, 1–2 sessions per week for about a month.
+- **Eligibility:** Open to all children; parents are asked to help their child commit to attending sessions.
+- **Recognition:** All participants perform together as a choir during the Periyar 148 Birthday Celebration.
+
+**Specific Rules:**
 
 - **Focus:** Songs based on Thanthai Periyar's ideology, social justice, Bharathidasan's poetry, and meaningful Tamil cinema tracks with positive social messages.
 - **Goal:** A group performance during our Thanthai Periyar Birthday Celebration event!
-- **Format:** Online via Zoom (1–2 sessions per week)
-- **Duration:** ~1 month
-
-**How Parents Can Help:** To make this group performance a success, we kindly ask parents to encourage their children to attend at least 4 to 5 Zoom sessions and dedicate time to practice.
+- **Parent Commitment:** To make this group performance a success, we kindly ask parents to encourage their children to attend at least 4 to 5 Zoom sessions and dedicate time to practice.
 
 Let's give our children a unique opportunity to learn, sing, and celebrate together!
