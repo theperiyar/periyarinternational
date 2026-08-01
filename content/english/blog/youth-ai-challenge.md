@@ -28,6 +28,29 @@ The event will begin with a hands-on introductory workshop, where participants w
 - **Responsible AI Challenge:** Identify misinformation, verify AI generated content, and design trustworthy AI solutions.
 - **Prompt Engineering Challenge:** Demonstrate how effective prompting can produce outstanding AI generated content.
 
-Projects will be evaluated on creativity, innovation, practical impact, critical thinking, and the effective and responsible use of AI.
+### Featured Track: AI Theme Song & Video Challenge
+
+**Objective:** Participants are given a theme or social cause (for example: humanity, equality, environmental sustainability, kindness, innovation, education, or social responsibility) and are asked to create an original AI-generated theme song and accompanying video. The emphasis is not only on the final creative output but also on how effectively participants use prompts to guide AI toward the desired result.
+
+**Participants may create:**
+
+- Original song lyrics
+- AI-composed background music
+- AI-generated vocals or voice cloning
+- AI avatars or animated characters
+- AI-generated music videos
+- Narrated videos using AI voices
+- Animated visual storytelling
+
+**Suggested free AI tools:** Participants may use any suitable AI platform, including ChatGPT, Claude, Gemini, Suno AI, Udio, Canva AI, CapCut AI, Pika, Luma AI, HeyGen (free tier), ElevenLabs (free tier), or any other equivalent AI creative tool.
+
+**Deliverables:**
+
+- Final video
+- Audio/song file
+- Prompt document (or prompt history)
+- Optional: short explanation of the creative process
+
+Projects will be evaluated on creativity and originality, relevance to the assigned theme, effective use of AI prompting, quality of storytelling and presentation, and overall impact.
 
 More than a competition, this initiative aims to establish a long-term AI learning community for youth, fostering curiosity, collaboration, ethical innovation, and scientific thinking. By empowering the next generation to question, experiment, and create, Periyar International continues its commitment to promoting knowledge, rationalism, and social progress through education and technology.

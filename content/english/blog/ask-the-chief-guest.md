@@ -17,9 +17,30 @@ image_icon: help_outline
 form_name: "Registration Form"
 ---
 
-Periyar believed that progress begins with questioning. In that spirit, **Periyar 148** invites participants to submit thoughtful, rational, and thought provoking questions for our Chief Guest during a special interactive session.
+**"Little Voices, Big Questions" – Ask & Win**
+
+Every great movement started with a question. What's yours? *Think freely. Question fearlessly. Win proudly… Junior Social Justice Warriors.*
+
+Periyar believed that progress begins with questioning. In that spirit, **Periyar 148** invites participants to submit thoughtful, rational, and thought provoking questions for our Chief Guest during a special interactive session: **"Ask the Speaker, Spark the Change."**
+
+Your questions will be submitted when you sign up for the event. We're hosting a guest speaker session on Social Justice and Periyar's Dravidian ideologies/thinking. Prepare your most thoughtful, curious, or bold question — the one that shows the deepest thinking or sparks the most powerful discussion wins an exciting prize! 🏆
 
 This is an opportunity for students, young professionals, and community members to engage in meaningful dialogue on topics that matter, including social justice, equality, rationalism, scientific thinking, education, democracy, human rights, gender equality, caste discrimination, freedom of expression, and other contemporary social issues.
+
+**Who can participate?** Kids aged 8–15 — thinkers, question-askers, and future changemakers welcome!
+
+**Why participate?**
+
+- Learn about Periyar's ideas on equality, rationalism, and self-respect
+- Practice the art of asking great questions
+- Win prizes for creativity and curiosity
+- Be part of a meaningful conversation on Social Justice & an Equitable society
+
+**Event Details:**
+
+- 📅 **Date:** Saturday, September 19, 2026
+- 📍 **Venue:** Online (Zoom)
+- 📝 **How to join:** Register using the button below
 
 Participants are encouraged to submit original questions that are:
 

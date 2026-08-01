@@ -18,12 +18,17 @@ form_name: "Registration Form"
 
 📢 **Special Announcement: Children's Singing Workshop**
 
-To celebrate Thanthai Periyar's 148th birthday this year, Periyar International USA is hosting a **1-Month Virtual Singing Workshop** for children ... instead of our annual competition ... culminating in a group performance during our Periyar 148 celebration around mid Sept' 2026.
+This year, Periyar International is trying something new! Instead of our usual annual singing competition, we are excited to host an interactive **Singing Workshop for Children** to celebrate Thanthai Periyar's 148th birthday.
 
-Guided by a music teacher from Tamil Nadu, participants will learn and perform songs (free for participants) centered on social justice, Periyar's principles, Bharathidasan's works, and socially conscious Tamil film music.
+We are partnering with an experienced music teacher from Tamil Nadu who will mentor the participants. Over the course of one month (meeting 1–2 times per week via Zoom), children will learn and perform **3 to 4 songs together as a choir**, culminating in a group performance during our Periyar 148 Birthday Celebration event around mid Sept' 2026.
 
+**Workshop Details & Themes:**
+
+- **Focus:** Songs based on Thanthai Periyar's ideology, social justice, Bharathidasan's poetry, and meaningful Tamil cinema tracks with positive social messages.
+- **Goal:** A group performance during our Thanthai Periyar Birthday Celebration event!
 - **Format:** Online via Zoom (1–2 sessions per week)
 - **Duration:** ~1 month
-- **Parent Commitment:** Please ensure your child can attend at least 4–5 sessions to prepare for the final group performance.
 
-Encourage your kids to join this fun, educational group experience!
+**How Parents Can Help:** To make this group performance a success, we kindly ask parents to encourage their children to attend at least 4 to 5 Zoom sessions and dedicate time to practice.
+
+Let's give our children a unique opportunity to learn, sing, and celebrate together!
