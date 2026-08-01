@@ -1,5 +1,5 @@
 ---
-title: "Rational Inquiry Session: Ask the Chief Guest"
+title: "\"Little Voices, Big Questions\" – Ask & Win"
 date: 2026-07-30T18:00:00+06:00
 author: Periyar International
 image_webp: images/blog/Img_AskChiefGuest.webp

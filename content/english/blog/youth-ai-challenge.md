@@ -1,5 +1,5 @@
 ---
-title: "Youth AI Challenge"
+title: "AI Theme Song & Video Challenge"
 date: 2026-07-30T12:00:00+06:00
 author: Periyar International
 image_webp: images/blog/Img_AIChallenge.webp
