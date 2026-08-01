@@ -102,7 +102,7 @@ location = "Chicago"
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
 name = "About"
-url = "#about"
+url = "/#about"
 weight = 1
 
 #[[Languages.en.menu.main]]
@@ -117,7 +117,7 @@ weight = 3
 
 [[Languages.en.menu.main]]
 name = "Contact"
-url = "#contact"
+url = "/#contact"
 weight = 4
 
 ############################# Default Parameters ##########################

@@ -1,12 +1,14 @@
 <header class="site-header">
 	<nav class="main-nav">
-	  <div class="container">
+	  <div class="nav-container">
 		<div class="logo-text">
+		  <a href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} home">
 		  {{ if site.Params.logo }}
 			<img src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}">
 		  {{ else }}
 			{{ site.Title }}
 		  {{ end }}
+		  </a>
 		</div>
 		<ul class="nav-links">
 		  {{ $currentPage := . }}
@@ -41,7 +43,7 @@
 		box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 	  }
 
-	  .container {
+	  .nav-container {
 		max-width: 1320px;
 		margin: 0 auto;
 		display: flex;
@@ -55,6 +57,11 @@
 		font-weight: 700;
 		letter-spacing: .2px;
 		color: #1f2933;
+	  }
+
+	  .logo-text a {
+		color: inherit;
+		text-decoration: none;
 	  }
 
 	  .logo-text img {
@@ -110,7 +117,7 @@
 	  }
 
 	  @media (max-width: 768px) {
-		.container {
+		.nav-container {
 		  flex-direction: column;
 		  padding: 16px 20px;
 		}
