@@ -1,19 +1,20 @@
 ---
-title: "AI Theme Song & Video Challenge"
+title: AI Theme Song & Video Challenge
 date: 2026-07-30T12:00:00+06:00
 author: Periyar International
-image_webp: images/blog/Img_AIChallenge.webp
 image: images/blog/Img_AIChallenge.jpg
-description : "Explore AI through creativity, critical thinking, and real world problem solving"
-button_label : "Register Now"
-is_event: true
-show_breadcrumb: true
-show_register_button: false
-show_form: false
-form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
-show_related_events: true
+image_webp: images/blog/Img_AIChallenge.webp
+description: Explore AI through creativity, critical thinking, and real world problem solving
 image_icon: smart_toy
-form_name: "Registration Form"
+show_breadcrumb: true
+is_event: true
+show_register_button: false
+button_label: Register Now
+button_link: ''
+show_form: false
+form_url: https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1
+form_name: Registration Form
+show_related_events: true
 ---
 
 As part of the **Periyar 148** celebrations, Periyar International USA is launching an exciting initiative to inspire young minds to explore the transformative potential of Artificial Intelligence through creativity, critical thinking, and real world problem solving. Rooted in Periyar's values of rational thinking, scientific inquiry, and social responsibility, this program encourages participants to use AI not simply as a technology, but as a tool to address meaningful challenges and create positive social impact.
@@ -21,9 +22,10 @@ As part of the **Periyar 148** celebrations, Periyar International USA is launch
 **Event Details:**
 
 - 📅 **Date:** Workshop and submissions lead up to the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**, where top projects are recognized.
-- 📍 **Where:** Online (virtual workshop and online project submission).
+- 📍 **Where:** Online (virtual workshop and online project submission) 
+**Sunday, August  30, 2026 9:30 AM to 11:00 AM CST**. 
 - 👥 **Who can participate:** Youth interested in exploring AI through creativity and problem solving.
-- 📝 **How to join:** Register using the button below.
+- 📝 **How to join:** Meeting link will be shared for the registered participants.
 
 **General Rules:**
 
