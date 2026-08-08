@@ -4,6 +4,16 @@
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
 
+				{{"<!-- Footer Logos -->" | safeHTML}}
+				<div class="footer-logos">
+					<a href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} home">
+						<img src="{{ "images/logo-en.png" | absURL }}" alt="{{ site.Title }} logo (English)" loading="lazy">
+					</a>
+					<a href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Title }} home">
+						<img src="{{ "images/logo-ta.png" | absURL }}" alt="{{ site.Title }} logo (Tamil)" loading="lazy">
+					</a>
+				</div>
+
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
@@ -20,9 +30,6 @@
 
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
-					<!--<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
-					</a>-->
 					<p>{{ site.Params.copyright | markdownify }}</p>
 				</div>
 			</div>

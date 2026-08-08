@@ -353,6 +353,35 @@ body {
   }
 }
 
+.footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.footer-logos img {
+  height: 84px;
+  width: auto;
+  transition: transform 0.25s ease;
+}
+
+.footer-logos a:hover img {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 480px) {
+  .footer-logos {
+    gap: 22px;
+  }
+
+  .footer-logos img {
+    height: 64px;
+  }
+}
+
 .contact-us {
   padding-top: 30px;
 }

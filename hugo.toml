@@ -91,7 +91,6 @@ link = "plugins/google-map/map.js"
 
 [params.header]
 sticky = true
-logo = ""
 
 [params.header.topbar]
 enable = true
@@ -122,7 +121,7 @@ weight = 4
 
 ############################# Default Parameters ##########################
 [params]
-#logo = "images/logo.png"
+logo = "images/logo-en.png"
 # Meta data
 description = "Periyar International promotes the humanistic ideals of Periyar E.V. Ramasamy - self-respect, social justice, and rational thinking - through chapters, events, and programs worldwide."
 author = "Periyar International"
@@ -136,7 +135,7 @@ post_share = true
 # preloader
 [params.preloader]
 enable = false
-preloader = "images/logo.png"
+preloader = "images/logo-en.png"
 
 # cookies
 [params.cookies]
