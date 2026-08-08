@@ -1,0 +1,44 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.flyers.flyers.enable }}
+{{ with $data.flyers.flyers }}
+{{"<!-- Start Flyers Section -->" | safeHTML}}
+<section class="flyers section" id="flyers">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+					{{ with .eyebrow_text }}<span class="flyers-eyebrow">{{ . }}</span>{{ end }}
+					<h2> {{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			{{ range .flyer_item }}
+			<div class="col-lg-5 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="flyer-card">
+					<a class="flyer-card-media image-popup" href="{{ .image | relURL }}" data-effect="mfp-with-zoom">
+						<img class="img-fluid" src="{{ .image_webp | absURL }}"
+							onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+						<span class="flyer-card-zoom"><i class="ti-zoom-in"></i></span>
+					</a>
+					<div class="flyer-card-content">
+						{{ with .date_label }}<span class="flyer-card-date">{{ . }}</span>{{ end }}
+						<h3>{{ .name }}</h3>
+						<p>{{ .content }}</p>
+						{{ if .button_text }}
+						<a href="{{ .button_link }}" class="flyer-card-btn">{{ .button_text }}</a>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /Flyers -->" | safeHTML}}
+{{ end }}
+{{ end }}

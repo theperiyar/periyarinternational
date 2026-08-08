@@ -1,0 +1,21 @@
+############################# featured event flyers ##############################
+flyers:
+  enable: true
+  eyebrow_text: "Don't Miss Out"
+  title: "Upcoming Events"
+  flyer_item:
+    - name: "Periyar 148th Birthday Celebration"
+      image: images/events/periyar-148-birthday-flyer.jpg
+      image_webp: images/events/periyar-148-birthday-flyer.webp
+      date_label: "September 19, 2026 · 10:00 AM EST"
+      content: "Join us as we celebrate Thanthai Periyar's 148th birthday with a day of speeches, cultural events, and community fellowship."
+      button_text: "Register Now"
+      button_link: "https://form.jotform.com/262107497170053"
+
+    - name: "Run / Walk For Periyar"
+      image: images/events/run-for-periyar-flyer.jpg
+      image_webp: images/events/run-for-periyar-flyer.webp
+      date_label: "Virtual Event · Any Distance, Any Pace"
+      content: "Honor Periyar's legacy with a run or walk in your own city. Track your activity with any fitness app and submit your results."
+      button_text: "Join the Event"
+      button_link: "/blog/run-for-periyar/"
