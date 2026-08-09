@@ -103,6 +103,7 @@ body {
   padding-bottom: 60px;
   height: auto;
   min-height: 420px;
+  background-position: center 32%;
 }
 
 .hero-area--hidden {
