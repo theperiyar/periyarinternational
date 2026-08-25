@@ -8,7 +8,8 @@ description : "1-Month Virtual Singing Workshop for Children"
 button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
-show_register_button: false
+show_register_button: true
+button_link: "https://form.jotform.com/262107497170053"
 show_form: false
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"
 show_related_events: true
@@ -22,10 +23,10 @@ This year, Periyar International is trying something new! Instead of our usual a
 
 **Event Details:**
 
-- 📅 **Date:** Sessions run for ~1 month, culminating in a group performance at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
-- 📍 **Where:** Online via Zoom.
+- 📅 **Register now:** Training sessions run for ~1 month leading up to the event. Registered participants will be trained via Zoom rehearsals to perform live at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
+- 📍 **Where:** Training sessions online via Zoom; live performance on September 19, 2026.
 - 👥 **Who can participate:** Children of all ages who'd like to sing.
-- 📝 **How to join:** Register using the button below.
+- 📝 **How to join:** Register using the button below — this is the same registration as the other Periyar 148 events, so simply select "Children's Singing Workshop" when choosing your activities.
 
 **General Rules:**
 

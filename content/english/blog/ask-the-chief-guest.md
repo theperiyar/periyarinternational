@@ -25,10 +25,11 @@ Periyar believed that progress begins with questioning. In that spirit, **Periya
 
 **Event Details:**
 
-- 📅 **Date:** The presentation will take place on Saturday, September 19, 2026, as part of the Periyar 148 Birthday Celebration. Workshop date and time will be announced shortly—please keep an eye on your inbox.
-- 📍 **Where:** Online (Zoom)
+- 📅 **Register now, then submit your question:** After registering, you'll receive a link to the submission portal to submit your question — no live workshop attendance is required for this event.
+- 🏆 **Selected questions asked live:** On Saturday, September 19, 2026, as part of the Periyar 148 Birthday Celebration, selected participants will personally ask their question live to the Chief Guest.
+- 📍 **Where:** Question submission is online; the live session is at the Periyar 148 Birthday Celebration.
 - 👥 **Who can participate:** Kids aged 8–15 — thinkers, question-askers, and future changemakers welcome!
-- 📝 **How to join:** Submit your question during registration using the button below.
+- 📝 **How to join:** Register using the button below, then submit your question through the submission portal.
 
 **Why participate?**
 
@@ -39,7 +40,7 @@ Periyar believed that progress begins with questioning. In that spirit, **Periya
 
 **General Rules:**
 
-- **Format:** Submit your question when you register; a review panel evaluates all submissions and selects the most compelling ones.
+- **Format:** Register first, then submit your question through the submission portal; a review panel evaluates all submissions and selects the most compelling ones.
 - **Recognition:** Selected participants ask their question live to the Chief Guest; the most thought provoking question wins an exciting prize. 🏆
 
 **Specific Rules:**
@@ -53,4 +54,4 @@ Participants are encouraged to submit original questions that are:
 
 This session is not a debate or a quiz. It is an opportunity to practice the spirit of rational inquiry, challenge assumptions, and engage in informed conversations, values that Periyar championed throughout his life.
 
-**Submit your question during registration and be part of a conversation that celebrates curiosity, reason, and social progress.**
+**Register now, then submit your question through the submission portal, and be part of a conversation that celebrates curiosity, reason, and social progress.**

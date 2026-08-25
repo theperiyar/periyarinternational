@@ -12,6 +12,14 @@ flyers:
       button_text: "Register Now"
       button_link: "https://form.jotform.com/262107497170053"
 
+    - name: "AI Theme Song & Video Challenge — Live Workshop"
+      image: images/blog/Img_AIChallenge.jpg
+      image_webp: images/blog/Img_AIChallenge.webp
+      date_label: "Sunday, August 30, 2026 · 9:30–11:00 AM CST"
+      content: "Register now for the required live kickoff workshop. Winning projects are announced at the Periyar 148 Birthday Celebration on September 19."
+      button_text: "Register Now"
+      button_link: "https://form.jotform.com/262107497170053"
+
     - name: "Run / Walk For Periyar"
       image: images/events/run-for-periyar-flyer.jpg
       image_webp: images/events/run-for-periyar-flyer.webp

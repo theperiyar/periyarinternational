@@ -8,9 +8,9 @@ description: Explore AI through creativity, critical thinking, and real world pr
 image_icon: smart_toy
 show_breadcrumb: true
 is_event: true
-show_register_button: false
+show_register_button: true
 button_label: Register Now
-button_link: ''
+button_link: 'https://form.jotform.com/262107497170053'
 show_form: false
 form_url: https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1
 form_name: Registration Form
@@ -21,11 +21,12 @@ As part of the **Periyar 148** celebrations, Periyar International USA is launch
 
 **Event Details:**
 
-- 📅 **Date:** Workshop and submissions lead up to the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**, where top projects are recognized.
-- 📍 **Where:** Online (virtual workshop and online project submission) 
-**Sunday, August  30, 2026 9:30 AM to 11:00 AM CST**. 
+- 📅 **Register now for the live workshop:** **Sunday, August 30, 2026, 9:30–11:00 AM CST** — this is the required kickoff session where participants learn the tools and challenge tracks.
+- 🎬 **Submit your project:** After the workshop, submit your AI theme song, video, or project through the submission portal (link shared after registration/workshop).
+- 🏆 **Winners announced:** Top projects are recognized at the Periyar 148 Birthday Celebration on **Saturday, September 19, 2026**.
+- 📍 **Where:** Online — meeting link will be shared with registered participants ahead of the August 30 workshop.
 - 👥 **Who can participate:** Youth interested in exploring AI through creativity and problem solving.
-- 📝 **How to join:** Meeting link will be shared for the registered participants.
+- 📝 **How to join:** Register using the button below — space is limited, so register before August 30.
 
 **General Rules:**
 
