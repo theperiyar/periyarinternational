@@ -22,6 +22,9 @@
 			</li>
 			{{ end }}
 		</ul>
+		{{ if and site.Params.onesignal.enable site.Params.onesignal.app_id }}
+		<button type="button" id="notice-notify-btn" class="notice-notify-btn">🔔 Get notified of new announcements</button>
+		{{ end }}
 	</div>
 </div>
 <script>(function(){
@@ -36,6 +39,27 @@
 			});
 		}
 	});
+
+	var notifyBtn = document.getElementById('notice-notify-btn');
+	if (notifyBtn && 'Notification' in window) {
+		var setState = function(permission){
+			if (permission === 'granted') {
+				notifyBtn.textContent = '🔔 Notifications enabled';
+				notifyBtn.disabled = true;
+			} else if (permission === 'denied') {
+				notifyBtn.textContent = '🔕 Notifications blocked (check browser settings)';
+				notifyBtn.disabled = true;
+			}
+		};
+		setState(Notification.permission);
+		notifyBtn.addEventListener('click', function(){
+			window.OneSignalDeferred = window.OneSignalDeferred || [];
+			window.OneSignalDeferred.push(async function(OneSignal){
+				await OneSignal.Notifications.requestPermission();
+				setState(Notification.permission);
+			});
+		});
+	}
 })();</script>
 {{"<!-- /Notice/Announcement Callout -->" | safeHTML}}
 {{ end }}
