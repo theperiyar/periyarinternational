@@ -1,0 +1,9 @@
+############################# announcement / attention callout ##############################
+notice:
+  enable: true
+  title: "Announcements"
+  items:
+    - "For all AI Workshop registrants, an email has been sent to join the WhatsApp group."
+    - "For Drawing Contest and \"Little Voices, Big Questions\" registrants, an email has been sent with instructions to upload your content via the Submission Portal."
+    - "Singing registrations closed today at 5:00 PM CST."
+    - "The last day for Drawing Contest and \"Little Voices, Big Questions\" submissions is September 11, 2026."
