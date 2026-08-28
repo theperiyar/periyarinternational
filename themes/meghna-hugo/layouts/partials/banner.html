@@ -24,6 +24,7 @@
 	<div class="banner-text">
 		<span class="banner-eyebrow"><span id="banner-eyebrow-text">{{ partial "banner-eyebrow-text.html" . }}</span></span>
 		{{ if .heading }}<h2>{{ .heading }}</h2>{{ end }}
+		{{ partial "notice.html" $ }}
 		{{ if .subheading }}<p>{{ .subheading }}</p>{{ end }}
 		{{ if .button_text }}
 		<a href="{{ .button_link }}" class="action-btn">
