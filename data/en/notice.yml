@@ -3,6 +3,8 @@
 # Wrap dates/deadlines in <strong>...</strong> so they stand out.
 # Bump `version` to re-show this notice to visitors who already dismissed it, even if the
 # wording doesn't change (dismissal is otherwise auto-invalidated whenever title/version/items change).
+# After adding/editing an item here, optionally send a push notification to subscribers from the
+# OneSignal dashboard (Messages > New Push) - see "Push notifications" in README.md. Not automatic.
 notice:
   enable: true
   version: 1

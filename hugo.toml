@@ -132,6 +132,14 @@ google_analytics_id = "" # Your ID
 # post share
 post_share = true
 
+# Push notifications (OneSignal) - leave app_id blank to disable.
+# Sign up free at https://onesignal.com, create a "Web Push" app, and paste its App ID below.
+# To notify subscribers about a new announcement, edit data/en/notice.yml as usual, then send a
+# push from the OneSignal dashboard (Messages > New Push) - sending is manual, not automatic.
+[params.onesignal]
+enable = true
+app_id = "e6b484a3-7c70-45bf-97e0-87fb94969d30"
+
 # preloader
 [params.preloader]
 enable = false

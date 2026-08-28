@@ -64,4 +64,17 @@
 	</script>
 	{{ end }}
 
+	{{ with site.Params.onesignal }}
+	{{ if and .enable .app_id }}
+	{{ "<!-- OneSignal Web Push -->" | safeHTML }}
+	<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+	<script>
+	  window.OneSignalDeferred = window.OneSignalDeferred || [];
+	  OneSignalDeferred.push(function(OneSignal) {
+	    OneSignal.init({ appId: "{{ .app_id }}" });
+	  });
+	</script>
+	{{ end }}
+	{{ end }}
+
 </head>

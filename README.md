@@ -29,6 +29,18 @@ lightweight CMS admin panel: **https://periyar-admin.netlify.app/admin/**
 - The admin panel's source lives in a separate private repo (`theperiyar/periyar-admin`), kept out of this public
   repo intentionally.
 
+## Push notifications for announcements
+
+The homepage announcements callout (`data/en/notice.yml`) can optionally notify subscribers via browser push,
+using [OneSignal](https://onesignal.com) (free tier, no backend required):
+
+1. Create a free OneSignal account and a "Web Push" app for this site.
+2. In `hugo.toml`, set `[params.onesignal]` `enable = true` and `app_id` to your OneSignal App ID.
+3. Configure the subscription prompt (slide-down or native) from the OneSignal dashboard — no code needed.
+
+Sending is manual: after editing `data/en/notice.yml` with a new announcement, send a push from the OneSignal
+dashboard (Messages > New Push) whenever you want subscribers notified. There's no automatic trigger.
+
 ## Local development
 
 ```bash
