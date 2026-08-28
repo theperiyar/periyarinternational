@@ -1,9 +1,18 @@
 ############################# announcement / attention callout ##############################
+# type: info | warning | action  (controls the badge/icon/color shown for each item)
+# Wrap dates/deadlines in <strong>...</strong> so they stand out.
+# Bump `version` to re-show this notice to visitors who already dismissed it, even if the
+# wording doesn't change (dismissal is otherwise auto-invalidated whenever title/version/items change).
 notice:
   enable: true
+  version: 1
   title: "Announcements"
   items:
-    - "For all AI Workshop registrants, an email has been sent to join the WhatsApp group."
-    - "For Drawing Contest and \"Little Voices, Big Questions\" registrants, an email has been sent with instructions to upload your content via the Submission Portal."
-    - "Singing registrations closed today at 5:00 PM CST."
-    - "The last day for Drawing Contest and \"Little Voices, Big Questions\" submissions is September 11, 2026."
+    - type: info
+      text: "AI Workshop registrants: it is important to join the WhatsApp group shared in your confirmation email, as it is used for meeting links and other useful information."
+    - type: action
+      text: "Drawing Contest and \"Little Voices, Big Questions\" registrants have been emailed instructions for uploading their submissions through the Submission Portal."
+    - type: warning
+      text: "Singing registration closes at <strong>5:00 PM CST on August 28, 2026</strong>."
+    - type: action
+      text: "The deadline for Drawing Contest and \"Little Voices, Big Questions\" submissions is <strong>September 11, 2026</strong>."

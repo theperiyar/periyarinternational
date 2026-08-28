@@ -2,7 +2,7 @@
 
 {{ if $data.notice.notice.enable }}
 {{ with $data.notice.notice }}
-{{ $key := md5 (printf "%s|%s" .title (delimit .items "|")) }}
+{{ $key := md5 (jsonify (dict "title" .title "version" .version "items" .items)) }}
 {{"<!-- Start Notice/Announcement Callout -->" | safeHTML}}
 <div class="notice-callout-box" data-notice-key="{{ $key }}">
 	<button type="button" class="notice-callout-close" aria-label="Dismiss announcement">&times;</button>
@@ -11,7 +11,15 @@
 		{{ if .title }}<h3>{{ .title }}</h3>{{ end }}
 		<ul>
 			{{ range .items }}
-			<li>{{ . | safeHTML }}</li>
+			{{ $type := .type | default "info" }}
+			{{ $label := "Info" }}
+			{{ $icon := "ti-info-alt" }}
+			{{ if eq $type "warning" }}{{ $label = "Warning" }}{{ $icon = "ti-alert" }}{{ end }}
+			{{ if eq $type "action" }}{{ $label = "Action needed" }}{{ $icon = "ti-flag-alt" }}{{ end }}
+			<li class="notice-item notice-item--{{ $type }}">
+				<span class="notice-item-badge" role="img" aria-label="{{ $label }}" title="{{ $label }}"><i class="{{ $icon }}"></i></span>
+				<span class="notice-item-text">{{ .text | safeHTML }}</span>
+			</li>
 			{{ end }}
 		</ul>
 	</div>
