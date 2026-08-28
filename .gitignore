@@ -21,3 +21,6 @@ blob-report
 playwright/.cache
 /tests/
 /playwright.config.ts
+.env
+.env.*
+.secrets/
