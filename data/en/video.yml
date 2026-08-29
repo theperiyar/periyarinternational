@@ -1,0 +1,10 @@
+############################# AI intro video ##############################
+video:
+  enable: true
+  eyebrow_text: "AI Theme Song & Video Challenge"
+  title: "Watch the AI Intro"
+  description: "A quick introduction to the AI Theme Song & Video Challenge — watch this before the live kickoff workshop on Sunday, August 30."
+  video_mp4: videos/ai-intro-video.mp4
+  poster: images/ai-intro-video-poster.jpg
+  button_text: "Register for the Workshop"
+  button_link: "https://form.jotform.com/262107497170053"

@@ -1,0 +1,33 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.video.video.enable }}
+{{ with $data.video.video }}
+{{"<!-- Start Intro Video Section -->" | safeHTML}}
+<section class="intro-video section" id="intro-video">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-5 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
+				<div class="intro-video-player">
+					<video class="img-fluid" controls playsinline preload="metadata"
+						{{ with .poster }}poster="{{ . | absURL }}"{{ end }}>
+						<source src="{{ .video_mp4 | absURL }}" type="video/mp4">
+					</video>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="intro-video-content">
+					{{ with .eyebrow_text }}<span class="intro-video-eyebrow">{{ . }}</span>{{ end }}
+					{{ with .title }}<h2>{{ . }}</h2>{{ end }}
+					<div class="border-meghna"></div>
+					{{ with .description }}<p>{{ . }}</p>{{ end }}
+					{{ if .button_text }}
+					<a href="{{ .button_link }}" class="flyer-card-btn">{{ .button_text }}</a>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- /Intro Video -->" | safeHTML}}
+{{ end }}
+{{ end }}

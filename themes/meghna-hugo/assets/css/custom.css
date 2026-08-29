@@ -539,3 +539,59 @@ body {
   color: #57cbcc;
   text-decoration: underline;
 }
+
+.intro-video {
+  background-color: #fff;
+}
+
+.intro-video-player {
+  position: relative;
+  max-width: 340px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  background: #111;
+}
+
+.intro-video-player video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.intro-video-content {
+  text-align: left;
+}
+
+.intro-video-eyebrow {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #b3151b;
+  margin-bottom: 10px;
+}
+
+.intro-video-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #292F36;
+  margin: 0 0 14px;
+}
+
+.intro-video-content p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #666;
+  margin: 20px 0 26px;
+}
+
+@media (max-width: 991px) {
+  .intro-video-content {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
