@@ -542,6 +542,13 @@ body {
 
 .intro-video {
   background-color: #fff;
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .intro-video {
+    scroll-margin-top: 180px;
+  }
 }
 
 .intro-video-player {
