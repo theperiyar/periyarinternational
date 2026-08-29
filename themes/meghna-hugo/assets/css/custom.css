@@ -596,9 +596,44 @@ body {
   margin: 20px 0 26px;
 }
 
+.intro-video-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.intro-video-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  color: #b3151b;
+  border: 1px solid #b3151b;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .2px;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+
+.intro-video-share-btn:hover,
+.intro-video-share-btn:focus {
+  background-color: #b3151b;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
 @media (max-width: 991px) {
   .intro-video-content {
     text-align: center;
     margin-top: 10px;
+  }
+
+  .intro-video-actions {
+    justify-content: center;
   }
 }

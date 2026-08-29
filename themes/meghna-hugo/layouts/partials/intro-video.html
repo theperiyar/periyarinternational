@@ -1,7 +1,9 @@
+{{ $page := . }}
 {{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.video.video.enable }}
 {{ with $data.video.video }}
+{{ $shareURL := printf "%s#intro-video" $page.Permalink }}
 {{"<!-- Start Intro Video Section -->" | safeHTML}}
 <section class="intro-video section" id="intro-video">
 	<div class="container">
@@ -20,14 +22,46 @@
 					{{ with .title }}<h2>{{ . }}</h2>{{ end }}
 					<div class="border-meghna"></div>
 					{{ with .description }}<p>{{ . }}</p>{{ end }}
-					{{ if .button_text }}
-					<a href="{{ .button_link }}" class="flyer-card-btn">{{ .button_text }}</a>
-					{{ end }}
+					<div class="intro-video-actions">
+						{{ if .button_text }}
+						<a href="{{ .button_link }}" class="flyer-card-btn">{{ .button_text }}</a>
+						{{ end }}
+						<button type="button" class="intro-video-share-btn" data-share-url="{{ $shareURL }}"
+							data-share-title="{{ .title }}" data-share-text="{{ .description }}"
+							aria-label="Share this video">
+							<i class="ti-share"></i> <span class="intro-video-share-label">Share Video</span>
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 {{"<!-- /Intro Video -->" | safeHTML}}
+<script>(function(){
+  var btn = document.querySelector('.intro-video-share-btn');
+  if (!btn) return;
+  btn.addEventListener('click', function(){
+    var url = btn.getAttribute('data-share-url');
+    var title = btn.getAttribute('data-share-title');
+    var text = btn.getAttribute('data-share-text');
+    var label = btn.querySelector('.intro-video-share-label');
+    var resetLabel = function(){ setTimeout(function(){ if (label) label.textContent = 'Share Video'; }, 2000); };
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url }).catch(function(){});
+      return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function(){
+        if (label) label.textContent = 'Link Copied!';
+        resetLabel();
+      }).catch(function(){
+        window.prompt('Copy this link:', url);
+      });
+      return;
+    }
+    window.prompt('Copy this link:', url);
+  });
+})();</script>
 {{ end }}
 {{ end }}

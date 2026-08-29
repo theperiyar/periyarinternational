@@ -13,7 +13,14 @@
 	{{ "<!-- Open Graph / Facebook -->" | safeHTML }}
 	{{ $ogTitle := .Title }}
 	{{ $ogImage := "" }}
-	{{ with .Params.image }}{{ $ogImage = . | absURL }}{{ else }}{{ with site.Params.images }}{{ $ogImage = (index . 0) | absURL }}{{ end }}{{ end }}
+	{{ $homeVideo := (index site.Data site.Language.Lang).video.video }}
+	{{ if .Params.image }}
+	{{ $ogImage = .Params.image | absURL }}
+	{{ else if and .IsHome $homeVideo.enable $homeVideo.poster }}
+	{{ $ogImage = $homeVideo.poster | absURL }}
+	{{ else if site.Params.images }}
+	{{ $ogImage = (index site.Params.images 0) | absURL }}
+	{{ end }}
 	<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
 	<meta property="og:url" content="{{ .Permalink }}">
 	<meta property="og:title" content="{{ $ogTitle }}">
@@ -23,6 +30,13 @@
 	{{ with $ogImage }}
 	<meta property="og:image" content="{{ . }}">
 	<meta property="og:image:alt" content="{{ $ogTitle }}">
+	{{ end }}
+	{{ if and .IsHome $homeVideo.enable $homeVideo.video_mp4 }}
+	<meta property="og:video" content="{{ $homeVideo.video_mp4 | absURL }}">
+	<meta property="og:video:secure_url" content="{{ $homeVideo.video_mp4 | absURL }}">
+	<meta property="og:video:type" content="video/mp4">
+	<meta property="og:video:width" content="480">
+	<meta property="og:video:height" content="848">
 	{{ end }}
 
 	{{ "<!-- Twitter Card -->" | safeHTML }}
