@@ -15,6 +15,10 @@ show_related_events: true
 
 Common questions about submitting your video for the AI Theme Song & Video Challenge, part of the Periyar 148 celebrations.
 
+### Where can I watch the workshop recording?
+
+{{< youtube ZKyOJs2ItU8 >}}
+
 ### Who can participate?
 
 Any youth participant who registered for the Periyar 148 Event Registration and selected the AI Theme Song & Video Challenge, and attended the AI workshop on August 30, 2026.

@@ -19,6 +19,10 @@ Thank you to everyone who joined our first-ever AI workshop, held live on Sunday
 
 A special thanks to our presenters — **Arunachalam Lakshmanan**, **Srikanth Daggumalli**, and **Akila Selvaraj** — for putting together sessions that were as thoughtful as they were fun. Keeping a room of young creators engaged for a full session is no small feat, and the feedback from participants showed just how much they enjoyed it.
 
+### Watch the Recording
+
+{{< youtube ZKyOJs2ItU8 >}}
+
 ### Download the Slides
 
 Each presenter covered a different piece of the AI content creation journey — from understanding how AI actually works, to polishing a finished video for social media. All three sessions are available below as PDF downloads.
