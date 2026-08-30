@@ -47,4 +47,6 @@ Ready to put what you learned into practice? Here's what to keep in mind while c
 - All entries will be evaluated by our judges after submissions close.
 - Results and special prizes will be announced at the **Periyar 148 Birthday Celebration on September 19, 2026**.
 
+Have questions about eligibility, formats, or judging? Check out the [AI Challenge FAQ](/blog/ai-challenge-faq/).
+
 We can't wait to see what you create!
