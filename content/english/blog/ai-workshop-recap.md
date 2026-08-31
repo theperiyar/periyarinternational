@@ -15,13 +15,11 @@ show_form: false
 show_related_events: true
 ---
 
+{{< youtube ZKyOJs2ItU8 >}}
+
 Thank you to everyone who joined our first-ever AI workshop, held live on Sunday, August 30, 2026! It was a wonderful turnout for a Sunday morning, and the energy in the room said it all — from live demos to hands-on experiments, participants dove straight into using AI as a creative tool.
 
 A special thanks to our presenters — **Arunachalam Lakshmanan**, **Srikanth Daggumalli**, and **Akila Selvaraj** — for putting together sessions that were as thoughtful as they were fun. Keeping a room of young creators engaged for a full session is no small feat, and the feedback from participants showed just how much they enjoyed it.
-
-### Watch the Recording
-
-{{< youtube ZKyOJs2ItU8 >}}
 
 ### Download the Slides
 

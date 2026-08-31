@@ -7,14 +7,14 @@
 # OneSignal dashboard (Messages > New Push) - see "Push notifications" in README.md. Not automatic.
 notice:
   enable: true
-  version: 1
+  version: 2
   title: "Announcements"
   items:
     - type: info
-      text: "AI Workshop registrants: it is important to join the WhatsApp group shared in your confirmation email, as it is used for meeting links and other useful information."
+      text: "The AI Workshop is complete! Watch the recording, download the slides, and see how to submit your video on the <a href=\"/blog/ai-workshop-recap/\">workshop recap page</a>."
     - type: action
       text: "Drawing Contest and \"Little Voices, Big Questions\" registrants have been emailed instructions for uploading their submissions through the Submission Portal."
     - type: warning
       text: "Singing registration closes at <strong>5:00 PM CST on August 28, 2026</strong>."
     - type: action
-      text: "The deadline for Drawing Contest and \"Little Voices, Big Questions\" submissions is <strong>September 11, 2026</strong>."
+      text: "The deadline for Drawing Contest, \"Little Voices, Big Questions\", and AI Theme Song & Video Challenge submissions is <strong>September 11, 2026</strong>. See the <a href=\"/blog/ai-challenge-faq/\">AI Challenge FAQ</a> for details."
