@@ -7,14 +7,14 @@
 # OneSignal dashboard (Messages > New Push) - see "Push notifications" in README.md. Not automatic.
 notice:
   enable: true
-  version: 2
+  version: 3
   title: "Announcements"
   items:
     - type: info
-      text: "The AI Workshop is complete! Watch the recording, download the slides, and see how to submit your video on the <a href=\"/blog/ai-workshop-recap/\">workshop recap page</a>."
-    - type: action
-      text: "Drawing Contest and \"Little Voices, Big Questions\" registrants have been emailed instructions for uploading their submissions through the Submission Portal."
+      text: "The AI Workshop is complete! Watch the recording, download the slides, and learn how to submit your video on the <a href=\"/blog/ai-workshop-recap/\">AI Workshop Recap page</a>."
     - type: warning
-      text: "Singing registration closes at <strong>5:00 PM CST on August 28, 2026</strong>."
+      text: "Due to the overwhelming response, Singing registration is now closed. Registration remains open for the <a href=\"/blog/drawing-competition/\">Drawing Contest</a> and <a href=\"/blog/ask-the-chief-guest/\">\"Little Voices, Big Questions\" — Ask a Question</a>."
     - type: action
-      text: "The deadline for Drawing Contest, \"Little Voices, Big Questions\", and AI Theme Song & Video Challenge submissions is <strong>September 11, 2026</strong>. See the <a href=\"/blog/ai-challenge-faq/\">AI Challenge FAQ</a> for details."
+      text: "Participants in the Drawing Contest and \"Little Voices, Big Questions\" have been emailed instructions for uploading their submissions through the Submission Portal."
+    - type: action
+      text: "All submissions are due by <strong>September 11, 2026</strong>. For complete details, visit the <a href=\"/blog/ai-challenge-faq/\">AI Challenge FAQ</a>."
