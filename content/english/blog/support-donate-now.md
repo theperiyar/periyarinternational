@@ -31,7 +31,7 @@ You can support Periyar's mission by making a donation. Contributions can be mad
 3. **Zelle Id for PI USA:** secretary@periyarinternational.org
 
    <div style="text-align:center; margin: 16px 0;">
-     <img src="/images/blog/donation-qr-code.png" alt="Scan this QR code with your banking app to donate via Zelle" style="max-width: 480px; width: 100%; height: auto;">
+     <img src="/images/blog/donation-qr-code.png" alt="Scan this QR code with your banking app to donate via Zelle" style="max-width: 1170px; width: 100%; height: auto;">
      <p><em>Scan with your banking app to donate instantly via Zelle</em></p>
    </div>
 
