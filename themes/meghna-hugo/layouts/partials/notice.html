@@ -4,8 +4,8 @@
 {{ with $data.notice.notice }}
 {{ $key := md5 (jsonify (dict "title" .title "version" .version "items" .items)) }}
 {{"<!-- Start Notice/Announcement Callout -->" | safeHTML}}
-<div class="notice-callout-box" data-notice-key="{{ $key }}">
-	<button type="button" class="notice-callout-close" aria-label="Dismiss announcement">&times;</button>
+<div class="notice-callout-box" data-notice-key="{{ $key }}" hidden>
+	<button type="button" class="notice-callout-close" aria-label="Minimize announcement">&times;</button>
 	<div class="notice-callout-icon"><i class="ti-announcement"></i></div>
 	<div class="notice-callout-content">
 		{{ if .title }}<h3>{{ .title }}</h3>{{ end }}
@@ -27,17 +27,31 @@
 		{{ end }}
 	</div>
 </div>
+<button type="button" class="notice-callout-reopen" data-notice-key="{{ $key }}" aria-label="Show announcements">
+	<i class="ti-announcement"></i> Announcements
+</button>
 <script>(function(){
 	document.querySelectorAll('.notice-callout-box').forEach(function(box){
-		var key = 'noticeDismissed:' + box.getAttribute('data-notice-key');
-		if (localStorage.getItem(key)) { box.remove(); return; }
-		var closeBtn = box.querySelector('.notice-callout-close');
-		if (closeBtn) {
-			closeBtn.addEventListener('click', function(){
-				localStorage.setItem(key, '1');
-				box.remove();
-			});
+		var noticeKey = box.getAttribute('data-notice-key');
+		var key = 'noticeOpen:' + noticeKey;
+		var reopenBtn = document.querySelector('.notice-callout-reopen[data-notice-key="' + noticeKey + '"]');
+
+		function expand(){
+			box.hidden = false;
+			if (reopenBtn) reopenBtn.hidden = true;
+			localStorage.setItem(key, '1');
 		}
+		function minimize(){
+			box.hidden = true;
+			if (reopenBtn) reopenBtn.hidden = false;
+			localStorage.removeItem(key);
+		}
+
+		if (localStorage.getItem(key) === '1') { expand(); } else { minimize(); }
+
+		var closeBtn = box.querySelector('.notice-callout-close');
+		if (closeBtn) closeBtn.addEventListener('click', minimize);
+		if (reopenBtn) reopenBtn.addEventListener('click', expand);
 	});
 
 	var notifyBtn = document.getElementById('notice-notify-btn');

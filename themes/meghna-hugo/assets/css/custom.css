@@ -1,8 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+/*
+  The base theme sets html/body to light-blue-on-dark-slate (#61dafb on
+  #282c34), meant for a dark portfolio look. Most content on this site
+  sits on white/light section backgrounds, so that text reads as low
+  contrast. Override with a legible dark neutral, and swap the body
+  copy font from the display face "Anaheim" to Roboto for readability
+  at paragraph sizes.
+*/
+html,
 body {
+  background-color: #fff;
+  color: #292F36;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
   line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #292F36;
+  font-weight: 700;
+}
+
+pre {
+  color: #292F36;
+}
+
+/*
+  These blocks keep their own dark background (theme's .bg-one /
+  .section-bg / .post-block) and previously relied on inheriting the
+  theme's light body/heading colors for contrast. The overrides above
+  are dark, so restore light text scoped to just these dark containers.
+*/
+.about .block .content,
+.contact-info,
+.post-block .content {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about .block .content h3,
+.contact-info h3 {
+  color: #fff;
+}
+
+/*
+  The base theme also sets a bare `a { color: #fff }` for links, which
+  worked on the theme's original dark background but is invisible on
+  the white post/article body and related-events list. Scoped to just
+  those white containers so links on dark cards (e.g. .post-block
+  titles) keep their white color untouched.
+*/
+.post-single-content a,
+#related-events a,
+.notice-callout-content a {
+  color: #b3151b;
+  text-decoration: underline;
+}
+
+.post-single-content a:hover,
+#related-events a:hover,
+.notice-callout-content a:hover {
+  color: #7a0f13;
 }
 
 .about .block p,
@@ -192,6 +258,7 @@ body {
   border-radius: 10px;
   padding: 16px 34px 16px 18px;
   margin-top: 24px;
+  margin-bottom: 24px;
   text-align: left;
 }
 
@@ -217,6 +284,36 @@ body {
 .notice-callout-close:hover {
   background-color: rgba(0, 0, 0, 0.06);
   color: #292F36;
+}
+
+.notice-callout-reopen {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 10px 18px 10px 14px;
+  background-color: #FFF8E6;
+  border: 1px solid #F0D999;
+  border-radius: 30px;
+  color: #7a0f13;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.notice-callout-reopen:hover {
+  background-color: #FFF0D6;
+}
+
+.notice-callout-reopen i {
+  font-size: 16px;
+  color: #b3151b;
+}
+
+.notice-callout-reopen[hidden] {
+  display: none;
 }
 
 .notice-callout-icon {
@@ -328,12 +425,15 @@ body {
   .hero-area {
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
     min-height: 0;
   }
 
   .banner-text {
     max-width: 100%;
-    padding: 32px 28px;
+    width: 100%;
+    padding: 28px 20px;
   }
 
   .banner-text h2 {
