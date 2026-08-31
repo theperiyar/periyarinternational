@@ -30,6 +30,11 @@ You can support Periyar's mission by making a donation. Contributions can be mad
 2. **PayPal:** [Donate here](https://www.paypal.com/us/fundraiser/charity/3378979)
 3. **Zelle Id for PI USA:** secretary@periyarinternational.org
 
+   <div style="text-align:center; margin: 16px 0;">
+     <img src="/images/blog/donation-qr-code.png" alt="Scan this QR code with your banking app to donate via Zelle" style="max-width: 280px; width: 100%; height: auto;">
+     <p><em>Scan with your banking app to donate instantly via Zelle</em></p>
+   </div>
+
 3. **Mail a Check:**  
         Address it to Periyar International USA  
         5652 Chapel Hill Court, Gurnee, IL 60031  

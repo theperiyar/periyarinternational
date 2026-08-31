@@ -7,9 +7,11 @@
 # OneSignal dashboard (Messages > New Push) - see "Push notifications" in README.md. Not automatic.
 notice:
   enable: true
-  version: 3
+  version: 4
   title: "Announcements"
   items:
+    - type: info
+      text: "Support Periyar International with a quick donation via Zelle — just scan the QR code on our <a href=\"/blog/support-donate-now/\">Donate Now page</a>."
     - type: info
       text: "The AI Workshop is complete! Watch the recording, download the slides, and learn how to submit your video on the <a href=\"/blog/ai-workshop-recap/\">AI Workshop Recap page</a>."
     - type: warning
