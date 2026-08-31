@@ -2,6 +2,27 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 /*
+  Bootstrap's .btn-primary loses its blue background here: the theme's
+  generic `.btn { background-color: transparent }` rule (style.css)
+  has the same specificity and loads after Bootstrap, so it wins on
+  background-color while `.btn`'s `color: #fff` also stays — leaving
+  an invisible white-on-white button (used for "Register Now" /
+  "Submit Your Video" etc. on every event/post page via single.html).
+*/
+.btn-primary {
+  background-color: #b3151b;
+  border-color: #b3151b;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #7a0f13;
+  border-color: #7a0f13;
+  color: #fff;
+}
+
+/*
   The base theme sets html/body to light-blue-on-dark-slate (#61dafb on
   #282c34), meant for a dark portfolio look. Most content on this site
   sits on white/light section backgrounds, so that text reads as low
