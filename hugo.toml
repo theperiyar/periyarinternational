@@ -110,6 +110,11 @@ weight = 1
 #weight = 2
 
 [[Languages.en.menu.main]]
+name = "Resources"
+url = "/blog/resources/"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "Support"
 url = "/blog/support-donate-now/"
 weight = 3
