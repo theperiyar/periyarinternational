@@ -45,7 +45,7 @@ Use the [AI Project Video Submission form](https://form.jotform.com/262413731318
 
 ### When is the deadline?
 
-Submissions are due by **end of day, September 11, 2026**.
+Submissions are now closed. Thank you to everyone who submitted a video!
 
 ### How are videos judged, and when are results announced?
 

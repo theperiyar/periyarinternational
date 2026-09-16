@@ -7,16 +7,14 @@ flyers:
     - name: "Periyar 148th Birthday Celebration"
       image: images/events/periyar-148-birthday-flyer.jpg
       image_webp: images/events/periyar-148-birthday-flyer.webp
-      date_label: "September 19, 2026 · 10:00 AM EST"
+      date_label: "September 19, 2026 · 10:00 AM EST · Registration Closed"
       content: "Join us as we celebrate Thanthai Periyar's 148th birthday with a day of speeches, cultural events, and community fellowship."
-      button_text: "Register Now"
-      button_link: "https://form.jotform.com/262107497170053"
 
     - name: "AI Theme Song & Video Challenge"
       image: images/blog/Img_AIChallenge.jpg
       image_webp: images/blog/Img_AIChallenge.webp
-      date_label: "Submissions due September 11, 2026"
-      content: "The live workshop is complete! Download the recap slides and submit your AI theme song or video. Winning projects are announced at the Periyar 148 Birthday Celebration on September 19."
+      date_label: "Submissions Closed"
+      content: "Thank you to everyone who submitted an AI theme song or video! Winning projects are announced at the Periyar 148 Birthday Celebration on September 19."
       button_text: "Submission Details"
       button_link: "/blog/ai-workshop-recap/"
 

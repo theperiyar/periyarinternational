@@ -45,7 +45,7 @@ Ready to put what you learned into practice? Here's what to keep in mind while c
 
 ### Submission & Results
 
-- Submit your video using the button above, or the [submission form](https://form.jotform.com/262413731318048), by **end of day September 11, 2026**.
+- Submissions are now closed. Thank you to everyone who submitted a video!
 - All entries will be evaluated by our judges after submissions close.
 - Results and special prizes will be announced at the **Periyar 148 Birthday Celebration on September 19, 2026**.
 

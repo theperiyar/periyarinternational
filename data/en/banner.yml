@@ -1,9 +1,9 @@
 banner:
   enable: true
   heading: Periyar 148 Event Registration
-  subheading: 'One form registers you for all activities. Main celebration: September 19, 2026, 10:00 AM EST.'
+  subheading: 'Registration is now closed. Join us for the main celebration on September 19, 2026, 10:00 AM EST.'
   eyebrow_text: Upcoming Event
-  button_text: Register Now
+  button_text: ""
   button_link: https://form.jotform.com/262107497170053
   bg_image: images/backgrounds/hero-area.jpg
   bg_image_webp: images/backgrounds/hero-area.webp

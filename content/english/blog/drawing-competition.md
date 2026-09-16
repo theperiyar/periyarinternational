@@ -4,11 +4,11 @@ date: 2018-09-12T14:51:12+06:00
 author: Mark Dinn
 image_webp: images/blog/Img_Drawing.webp
 image: images/blog/Img_Drawing.jpg
-description : "A picture is worth a thousand words"
+description : "A picture is worth a thousand words — Registration Closed"
 button_label : "Register Now"
 is_event: true
 show_breadcrumb: true
-show_register_button: true
+show_register_button: false
 button_link: "https://form.jotform.com/262107497170053"
 show_form: false
 form_url: "https://formkeep.com/p/e469ef804347a613ed56ba6a3c12d14c?embedded=1"

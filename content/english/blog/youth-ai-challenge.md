@@ -4,11 +4,11 @@ date: 2026-07-30T12:00:00+06:00
 author: Periyar International
 image: images/blog/Img_AIChallenge.jpg
 image_webp: images/blog/Img_AIChallenge.webp
-description: Explore AI through creativity, critical thinking, and real world problem solving
+description: Explore AI through creativity, critical thinking, and real world problem solving — Registration Closed
 image_icon: smart_toy
 show_breadcrumb: true
 is_event: true
-show_register_button: true
+show_register_button: false
 button_label: Register Now
 button_link: 'https://form.jotform.com/262107497170053'
 show_form: false
