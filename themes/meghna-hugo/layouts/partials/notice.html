@@ -4,7 +4,7 @@
 {{ with $data.notice.notice }}
 {{ $key := md5 (jsonify (dict "title" .title "version" .version "items" .items)) }}
 {{"<!-- Start Notice/Announcement Callout -->" | safeHTML}}
-<div class="notice-callout-box" data-notice-key="{{ $key }}" hidden>
+<div class="notice-callout-box" data-notice-key="{{ $key }}">
 	<button type="button" class="notice-callout-close" aria-label="Minimize announcement">&times;</button>
 	<div class="notice-callout-icon"><i class="ti-announcement"></i></div>
 	<div class="notice-callout-content">
@@ -27,7 +27,7 @@
 		{{ end }}
 	</div>
 </div>
-<button type="button" class="notice-callout-reopen" data-notice-key="{{ $key }}" aria-label="Show announcements">
+<button type="button" class="notice-callout-reopen" data-notice-key="{{ $key }}" aria-label="Show announcements" hidden>
 	<i class="ti-announcement"></i> Announcements
 </button>
 <script>(function(){
@@ -44,10 +44,10 @@
 		function minimize(){
 			box.hidden = true;
 			if (reopenBtn) reopenBtn.hidden = false;
-			localStorage.removeItem(key);
+			localStorage.setItem(key, '0');
 		}
 
-		if (localStorage.getItem(key) === '1') { expand(); } else { minimize(); }
+		if (localStorage.getItem(key) === '0') { minimize(); } else { expand(); }
 
 		var closeBtn = box.querySelector('.notice-callout-close');
 		if (closeBtn) closeBtn.addEventListener('click', minimize);
