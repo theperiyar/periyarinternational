@@ -1,0 +1,31 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.live.live.enable }}
+{{ with $data.live.live }}
+{{"<!-- Start Live Stream Widget -->" | safeHTML}}
+<section class="live-stream section" id="live-stream">
+	<div class="container">
+		<div class="live-stream-head text-center">
+			{{ with .eyebrow_text }}<span class="live-stream-eyebrow"><span class="live-stream-dot"></span>{{ . }}</span>{{ end }}
+			{{ with .title }}<h2>{{ . }}</h2>{{ end }}
+			{{ with .subtitle }}<p class="live-stream-subtitle">{{ . }}</p>{{ end }}
+		</div>
+		<div class="live-stream-player">
+			<iframe src="https://www.youtube.com/embed/{{ .youtube_video_id }}"
+				title="{{ .title }} live stream" loading="lazy" allowfullscreen
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				referrerpolicy="strict-origin-when-cross-origin"></iframe>
+		</div>
+		<div class="live-stream-links text-center">
+			<a class="live-stream-yt" href="{{ .youtube_channel_url }}" target="_blank" rel="noopener">Watch on YouTube &rarr;</a>
+		</div>
+		<div class="live-stream-zoom text-center">
+			{{ with .zoom_text }}<p>{{ . }}</p>{{ end }}
+			<a class="live-stream-zoom-btn" href="{{ .zoom_link }}" target="_blank" rel="noopener">{{ .zoom_button_text | default "Join Zoom Meeting" }}</a>
+			{{ with .zoom_meeting_id }}<p class="live-stream-zoom-id">Meeting ID: <strong>{{ . }}</strong></p>{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /Live Stream Widget -->" | safeHTML}}
+{{ end }}
+{{ end }}
