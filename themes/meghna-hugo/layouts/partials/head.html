@@ -16,8 +16,8 @@
 	{{ $ogTitle := .Title }}
 	{{ $ogImage := "" }}
 	{{ if $showLive }}
-	{{ $ogTitle = printf "LIVE: %s" $live.title }}
-	{{ $description = printf "%s. Watch the livestream on YouTube or join us on Zoom." $live.subtitle }}
+	{{ $ogTitle = printf "Recording: %s" $live.title }}
+	{{ $description = $live.subtitle }}
 	{{ end }}
 	{{ $homeVideo := (index site.Data site.Language.Lang).video.video }}
 	{{ if $showLive }}

@@ -1,13 +1,13 @@
 banner:
   enable: true
-  heading: Periyar 148 Event Registration
-  subheading: 'Registration is now closed. Join us for the main celebration on September 19, 2026, 10:00 AM EST.'
-  eyebrow_text: Upcoming Event
-  button_text: "🔴 Watch Live Now"
+  heading: Thank You for Celebrating Periyar 148
+  subheading: 'Thank you to everyone who joined, performed, and took part in the Periyar 148 Birthday Celebration on September 19, 2026. Watch the recording below.'
+  eyebrow_text: Event Recap
+  button_text: "▶ Watch the Recording"
   button_link: "#live-stream"
   bg_image: images/backgrounds/hero-area.jpg
   bg_image_webp: images/backgrounds/hero-area.webp
   start_date: 08/01/2026 04:34 PM
-  end_date: 2026-09-20T06:00:00-04:00
-  show_countdown: true
+  end_date: ""
+  show_countdown: false
   event_date: 2026-09-19T10:00:00-04:00

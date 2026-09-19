@@ -1,0 +1,22 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.feedback.feedback.enable }}
+{{ with $data.feedback.feedback }}
+{{"<!-- Start Feedback Widget -->" | safeHTML}}
+<section class="feedback-widget section" id="feedback">
+	<div class="container">
+		<div class="feedback-widget-head text-center">
+			{{ with .eyebrow_text }}<span class="feedback-widget-eyebrow">{{ . }}</span>{{ end }}
+			{{ with .title }}<h2>{{ . }}</h2>{{ end }}
+			{{ with .subtitle }}<p class="feedback-widget-subtitle">{{ . }}</p>{{ end }}
+		</div>
+		<div class="feedback-widget-frame">
+			<iframe scrolling="no" src="{{ .form_url }}" title="{{ .title }}" loading="lazy"
+				referrerpolicy="strict-origin-when-cross-origin"></iframe>
+		</div>
+		<p class="feedback-widget-fallback text-center"><a href="{{ .form_url }}" target="_blank" rel="noopener">{{ .fallback_text }} &rarr;</a></p>
+	</div>
+</section>
+{{"<!-- /Feedback Widget -->" | safeHTML}}
+{{ end }}
+{{ end }}

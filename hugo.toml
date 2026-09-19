@@ -100,9 +100,14 @@ location = "Chicago"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "🔴 Watch Live"
+name = "▶ Watch Recording"
 url = "/#live-stream"
 weight = 0
+
+[[Languages.en.menu.main]]
+name = "Feedback"
+url = "/blog/feedback/"
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "About"
@@ -127,7 +132,7 @@ weight = 3
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "/#contact"
-weight = 4
+weight = 5
 
 ############################# Default Parameters ##########################
 [params]

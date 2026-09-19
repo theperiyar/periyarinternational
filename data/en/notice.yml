@@ -7,12 +7,10 @@
 # OneSignal dashboard (Messages > New Push) - see "Push notifications" in README.md. Not automatic.
 notice:
   enable: true
-  version: 7
+  version: 11
   title: "Announcements"
   items:
     - type: action
-      text: "<strong>Join us LIVE on Zoom — Periyar 148 Birthday Celebration, Saturday, September 19, 2026 at 10:00 AM Eastern Time (US &amp; Canada).</strong> <a href=\"https://us06web.zoom.us/j/7039026539?pwd=IA9fSbMKNHrW3ckkSgyo0XNW1O1iZ5.1&amp;omn=88041797837\" target=\"_blank\" rel=\"noopener\"><strong>Join Zoom Meeting</strong></a> &middot; <a href=\"#live-stream\"><strong>Watch live on YouTube &darr;</strong></a> &middot; Meeting ID: <strong>703 902 6539</strong>"
+      text: "<strong>Thank you to everyone who joined and took part in the Periyar 148 Birthday Celebration on September 19, 2026!</strong> <a href=\"#live-stream\"><strong>Watch the recording &darr;</strong></a> &middot; <a href=\"/blog/feedback/\"><strong>Share your feedback &darr;</strong></a>"
     - type: info
       text: "Support Periyar International with a quick donation via Zelle — just scan the QR code on our <a href=\"/blog/support-donate-now/\">Donate Now page</a>."
-    - type: info
-      text: "Registration and submissions are now officially closed — thank you to everyone who took part in Singing, the Drawing Contest, \"Little Voices, Big Questions,\" and the AI Theme Song &amp; Video Challenge! Winners will be announced at the Periyar 148 Birthday Celebration on <strong>September 19, 2026</strong>."

@@ -1,13 +1,10 @@
-############################# Live stream widget (homepage) ##############################
-# Embeds a specific YouTube live video (the ID from watch?v=...). Set enable: false once the event is over.
+############################# Event recording widget (homepage) ##############################
+# Embeds a specific YouTube live video (the ID from watch?v=...). Set is_live: true and add zoom_text/zoom_button_text/zoom_link/zoom_meeting_id to show the live
+# indicator and Zoom card again; set enable: false to hide the section.
 live:
   enable: true
-  eyebrow_text: "Live Now"
+  eyebrow_text: "Event Recording"
   title: "Periyar 148 Birthday Celebration"
-  subtitle: "Saturday, September 19, 2026 · 10:00 AM Eastern Time (US & Canada)"
+  subtitle: "Thank you to everyone who joined us and took part in the celebration on September 19, 2026. Missed it? Watch the full recording."
   youtube_video_id: "ZzgsxwSUx2o"
   youtube_channel_url: "https://www.youtube.com/watch?v=ZzgsxwSUx2o"
-  zoom_text: "Prefer to join us on Zoom?"
-  zoom_button_text: "Join Zoom Meeting"
-  zoom_link: "https://us06web.zoom.us/j/7039026539?pwd=IA9fSbMKNHrW3ckkSgyo0XNW1O1iZ5.1&omn=88041797837"
-  zoom_meeting_id: "703 902 6539"

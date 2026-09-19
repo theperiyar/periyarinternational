@@ -1,0 +1,8 @@
+############################# Event feedback widget (homepage) ##############################
+feedback:
+  enable: true
+  eyebrow_text: "Your Feedback"
+  title: "Tell Us How the Event Went"
+  subtitle: "It takes about two minutes, and you can stay anonymous. Thank you for helping us make the next celebration even better."
+  form_url: "https://periyar148-dashboard.pages.dev/feedback"
+  fallback_text: "Form not loading? Open the feedback form in a new tab"
