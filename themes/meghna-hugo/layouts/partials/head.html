@@ -4,6 +4,8 @@
 
 	{{ "<!-- mobile responsive meta -->" | safeHTML }}
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	{{ $live := (index site.Data site.Language.Lang).live.live }}
+	{{ $showLive := and .IsHome $live.enable }}
 	{{ $description := "" }}
 	{{ with .Description }}{{ $description = . }}{{ else }}{{ with site.Params.description }}{{ $description = . }}{{ end }}{{ end }}
 	<meta name="description" content="{{ $description }}">
@@ -13,8 +15,14 @@
 	{{ "<!-- Open Graph / Facebook -->" | safeHTML }}
 	{{ $ogTitle := .Title }}
 	{{ $ogImage := "" }}
+	{{ if $showLive }}
+	{{ $ogTitle = printf "LIVE: %s" $live.title }}
+	{{ $description = printf "%s. Watch the livestream on YouTube or join us on Zoom." $live.subtitle }}
+	{{ end }}
 	{{ $homeVideo := (index site.Data site.Language.Lang).video.video }}
-	{{ if .Params.image }}
+	{{ if $showLive }}
+	{{ $ogImage = printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $live.youtube_video_id }}
+	{{ else if .Params.image }}
 	{{ $ogImage = .Params.image | absURL }}
 	{{ else if and .IsHome $homeVideo.enable $homeVideo.poster }}
 	{{ $ogImage = $homeVideo.poster | absURL }}
@@ -31,7 +39,7 @@
 	<meta property="og:image" content="{{ . }}">
 	<meta property="og:image:alt" content="{{ $ogTitle }}">
 	{{ end }}
-	{{ if and .IsHome $homeVideo.enable $homeVideo.video_mp4 }}
+	{{ if and .IsHome (not $showLive) $homeVideo.enable $homeVideo.video_mp4 }}
 	<meta property="og:video" content="{{ $homeVideo.video_mp4 | absURL }}">
 	<meta property="og:video:secure_url" content="{{ $homeVideo.video_mp4 | absURL }}">
 	<meta property="og:video:type" content="video/mp4">
