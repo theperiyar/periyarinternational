@@ -3,7 +3,7 @@ title: "Event Feedback"
 date: 2026-09-19T12:00:00-05:00
 author: Periyar International
 image_webp: images/blog/periyar.webp
-image: images/blog/periyar.jpg
+image: images/og/feedback.jpg
 description: "Tell us how the Periyar 148 event went. It takes about two minutes, and you can stay anonymous."
 image_icon: rate_review
 show_breadcrumb: true

@@ -3,7 +3,7 @@ title: "Resources"
 date: 2026-09-04T12:00:00+06:00
 author: Periyar International
 image_webp: images/blog/periyar.webp
-image: images/blog/periyar.jpg
+image: images/og/resources.jpg
 description: "All PDF downloads available on the Periyar International website, in one place."
 image_icon: picture_as_pdf
 show_breadcrumb: true

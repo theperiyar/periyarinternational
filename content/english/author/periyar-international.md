@@ -1,6 +1,8 @@
 ---
 title: "Periyar International"
 image: ""
+description: "Posts and updates from Periyar International."
+og_image: images/og/about.jpg
 email: "info@periyarinternational.org"
 social:
   - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons

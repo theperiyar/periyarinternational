@@ -22,6 +22,8 @@
 	{{ $homeVideo := (index site.Data site.Language.Lang).video.video }}
 	{{ if $showLive }}
 	{{ $ogImage = printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $live.youtube_video_id }}
+	{{ else if .Params.og_image }}
+	{{ $ogImage = .Params.og_image | absURL }}
 	{{ else if .Params.image }}
 	{{ $ogImage = .Params.image | absURL }}
 	{{ else if and .IsHome $homeVideo.enable $homeVideo.poster }}

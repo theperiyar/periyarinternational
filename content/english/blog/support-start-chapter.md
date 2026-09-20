@@ -1,10 +1,10 @@
 ---
-title: "Kahoot - Periyar 1000"
+title: "Enact a Leader"
 date: 2018-09-12T12:52:36+06:00
 author: Periyar International
 image_webp: images/blog/Img_DravidianIcons.webp
 image: images/blog/Img_DravidianIcons.jpg
-description : "Enact your leader"
+description: "Dress as an iconic Dravidian leader and bring their story to life in a short performance. See the rules and choose your leader."
 ---
 
 

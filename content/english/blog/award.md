@@ -3,7 +3,7 @@ title: "K Veeramani Award"
 date: 1994-11-13T14:51:12+06:00
 author: Periyar International 
 image_webp: images/blog/periyar.webp
-image: images/blog/periyar.jpg
+image: images/og/award.jpg
 description : "Recognizing excellence with prestigious awards"
 image_icon: star
 is_event: false

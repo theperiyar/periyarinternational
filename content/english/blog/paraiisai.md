@@ -2,8 +2,8 @@
 title: "Parai Music"
 date: 2018-09-12T12:52:36+06:00
 author: Periyar International
-image_webp: images/blog/Img_Kahoot.webp
-image: images/blog/Img_Kahoot.jpg
+image_webp: images/og/parai.webp
+image: images/og/parai.jpg
 description : "Showcase your rhythm and skill in our 'Parai Music' to celebrate the vibrant heritage of Periyar!"
 button_label : "Register Now"
 is_event: true
